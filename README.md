@@ -9,7 +9,7 @@ In order to facilitate a new text detection research, we introduce the Total-Tex
 <img src="ICDAR.gif" width="25%">
 
 ## Citation
-If you find this code useful for your research, please cite
+If you find this dataset useful for your research, please cite
 ```
 @inproceedings{CK2017,
   author    = {Chee Kheng Ch’ng and
