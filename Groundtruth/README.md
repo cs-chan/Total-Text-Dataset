@@ -12,4 +12,4 @@ a) Polygon - Our proposed polygon-shaped bounding region
 
 b) Rectangular - Conventional rectangular bounding box
 
-<img src="sample.jpg" width="25%">
+<img src="sample.png" width="100%">
