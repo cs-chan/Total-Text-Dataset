@@ -3,7 +3,9 @@ The Total-Text dataset can be downloaded through the following link:
 (http://www.cs-chan.com/source/ICDAR2017/totaltext.zip) (Size = 25.4Gb).
 
 There are two(2) folders associated with the dataset:
+
 a) Train - It contains 1255 images.
+
 b) Test - It contains 300 images.
 
 <img src="img310.jpg" width="25%">
