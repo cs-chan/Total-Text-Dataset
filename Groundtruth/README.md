@@ -13,3 +13,7 @@ a) Polygon - Our proposed polygon-shaped bounding region
 b) Rectangular - Conventional rectangular bounding box
 
 <img src="sample.png" width="100%">
+
+## GroundTruth Format
+<img src="poly_gt_format.png" align="center" width="50%">
+<img src="rect_gt_format.png" align="center" width="50%">
