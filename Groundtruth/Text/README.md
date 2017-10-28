@@ -15,6 +15,8 @@ The format is
 * Column 5 - Text
 * Column 6 - Orientation (c=curve; h=horizontal; m=multi-oriented; #=dont care)
 
+<img src="polygon.png" width="50%">
+
 ### Rectangular - Conventional rectangular bounding box
 The format is
 * Column 1 = X-min
