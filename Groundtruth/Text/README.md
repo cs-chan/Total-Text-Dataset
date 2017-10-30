@@ -2,7 +2,7 @@
 
 The groundtruth of Total-Text dataset can be downloaded through the following link:
 
-(http://www.cs-chan.com/source/ICDAR2017/groundtruth-text.zip).
+(http://www.cs-chan.com/source/ICDAR2017/groundtruth_text.zip).
 
 <img src="sample.png" width="100%">
 
