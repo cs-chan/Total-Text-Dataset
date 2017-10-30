@@ -4,7 +4,7 @@ The groundtruth of Total-Text dataset can be downloaded through the following li
 
 (http://www.cs-chan.com/source/ICDAR2017/groundtruth-word.zip).
 
-<img src="img61.png" width="100%">
+<img src="gtword.gif" width="50%">
 
 There are two(2) folders associated with:
 
