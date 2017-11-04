@@ -4,7 +4,7 @@ Released on October 27, 2017
 
 ## Description
 
-In order to facilitate a new text detection research, we introduce the [Total-Text dataset](https://arxiv.org/abs/1710.10400) [(slides)](http://cs-chan.com/doc/TT_Slide.pdf), which is more comprehensive than the existing text datasets. The Total-Text consists of 1555 images with more than 3 different text orientations: Horizontal, Multi-Oriented, and Curved, one of a kind.
+In order to facilitate a new text detection research, we introduce the [Total-Text dataset](https://arxiv.org/abs/1710.10400) [(presentation slides)](http://cs-chan.com/doc/TT_Slide.pdf), which is more comprehensive than the existing text datasets. The Total-Text consists of 1555 images with more than 3 different text orientations: Horizontal, Multi-Oriented, and Curved, one of a kind.
 
 <img src="ttstats.png" width="50%">
 <img src="ICDAR.gif" width="50%">
