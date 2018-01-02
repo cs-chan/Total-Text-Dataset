@@ -26,3 +26,8 @@ If you find this dataset useful for your research, please cite
 ## Feedback
 Suggestions and opinions of this dataset (both positive and negative) are greatly welcome. Please contact the authors by sending email to
 `chngcheekheng at gmail.com`or `cs.chan at um.edu.my`.
+
+### Copyright
+The Total-Text database is free to the academic community for research purpose usage only.
+
+Copyright 2018, Multimedia Signal Processing Lab, University of Malaya.
