@@ -1,6 +1,8 @@
 The pixel level groundtruth of Total-Text dataset can be downloaded through the following link:
 
-(https://www.dropbox.com/sh/1yexg90vcqnmojt/AADdFW6c9SzpIYinOi8YzOKVa?dl=0).
+(http://www.cs-chan.com/source/ICDAR2017/groundtruth_pixel.zip).
+
+<img src="pixel.gif" width="100%">
 
 There are two(2) folders associated the mentioned link.
 
