@@ -34,4 +34,4 @@ Suggestions and opinions of this dataset (both positive and negative) are greatl
 ### Copyright
 The Total-Text database is free to the academic community for research purpose usage only.
 
-Copyright 2018, Multimedia Signal Processing Lab, University of Malaya.
+Copyright 2018, Center of Image and Signal Processing, Faculty of Computer Science and Information Technology, University of Malaya.
