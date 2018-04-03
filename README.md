@@ -1,6 +1,7 @@
 # Total-Text-Dataset
 
 Released on October 27, 2017
+Updated on April 03, 2018 (Pixel level groundtruth)
 
 ## Description
 
