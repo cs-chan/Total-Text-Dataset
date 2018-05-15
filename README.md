@@ -6,7 +6,9 @@ Updated on November 04, 2017 (Text level groundtruth)
 
 Updated on April 03, 2018 (Pixel level groundtruth)
 
-Updated on May 15, 2018 (Newly added feature - 'Do not care' candidates filtering is now available in the latest python scripts.)
+Updated on May 14, 2018 (Newly added feature - 'Do not care' candidates filtering is now available in the latest python scripts.)
+
+Updated on May 15, 2018 (Newly added groundtruth of the Total-Text dataset in '.txt' format.)
 
 ## Description
 
