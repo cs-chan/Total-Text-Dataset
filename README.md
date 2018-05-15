@@ -1,6 +1,6 @@
 # Total-Text-Dataset
 
-Updated on May 15, 2018 (Newly added groundtruth of the Total-Text dataset in '.txt' format.)
+Updated on May 15, 2018 (Newly added groundtruth in '.txt' format.)
 
 Updated on May 14, 2018 (Newly added feature - 'Do not care' candidates filtering is now available in the latest python scripts.)
 
