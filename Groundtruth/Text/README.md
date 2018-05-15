@@ -1,8 +1,9 @@
 ## Description
 
-The groundtruth of Total-Text dataset can be downloaded through the following link:
+The groundtruth of the Total-Text dataset can be downloaded through the following links:
 
-(http://www.cs-chan.com/source/ICDAR2017/groundtruth_text.zip).
+(http://www.cs-chan.com/source/ICDAR2017/groundtruth_text.zip) - '.mat' Matlab format. Can be load with Matlab, scipy.io.loadmat, etc..
+(http://www.cs-chan.com/source/ICDAR2017/txt_format.zip) - '.txt' format.
 
 <img src="sample.png" width="100%">
 
