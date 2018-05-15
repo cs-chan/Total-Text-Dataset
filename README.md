@@ -33,7 +33,9 @@ If you find this dataset useful for your research, please cite
 Suggestions and opinions of this dataset (both positive and negative) are greatly welcome. Please contact the authors by sending email to
 `chngcheekheng at gmail.com`or `cs.chan at um.edu.my`.
 
-### Copyright
-The Total-Text database is free to the academic community for research purpose usage only.
+## Lisense and Copyright
+The project is open source under BSD-3 license (see the ``` LICENSE ``` file). Codes can be used freely only for academic purpose.
 
 Copyright 2018, Center of Image and Signal Processing, Faculty of Computer Science and Information Technology, University of Malaya.
+
+
