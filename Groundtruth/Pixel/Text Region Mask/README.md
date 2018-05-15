@@ -1,8 +1,6 @@
 ## Description
 
-The text region mask groundtruth of Total-Text dataset can be downloaded through the following link:
-
-(http://www.cs-chan.com/source/ICDAR2017/groundtruth_textregion.zip).
+The text region mask groundtruth of Total-Text dataset can be downloaded [here](http://www.cs-chan.com/source/ICDAR2017/groundtruth_textregion.zip) (.zip file).
 
 <img src="textregion.gif" width="25%">
 
