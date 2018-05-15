@@ -21,9 +21,9 @@ If you find this dataset useful for your research, please cite
                Chee Seng Chan},
   title     = {Total-Text: A Comprehensive Dataset for Scene Text Detection and Recognition},
   booktitle = {14th IAPR International Conference on Document Analysis and Recognition {ICDAR}},
-  pages     = {},
+  pages     = {935--942},
   year      = {2017},
-  doi       = {},
+  doi       = {10.1109/ICDAR.2017.157},
 }
 ```
 
