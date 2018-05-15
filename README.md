@@ -6,6 +6,8 @@ Updated on November 04, 2017 (Text level groundtruth)
 
 Updated on April 03, 2018 (Pixel level groundtruth)
 
+Updated on May 15, 2018 (Newly added feature - 'Do not care' candidates filtering is now available in the latest python scripts.)
+
 ## Description
 
 In order to facilitate a new text detection research, we introduce the Total-Text dataset [(ICDAR2017 paper)](https://arxiv.org/abs/1710.10400) [(presentation slides)](http://cs-chan.com/doc/TT_Slide.pdf), which is more comprehensive than the existing text datasets. The Total-Text consists of 1555 images with more than 3 different text orientations: Horizontal, Multi-Oriented, and Curved, one of a kind.
