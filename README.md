@@ -2,9 +2,9 @@
 
 Released on October 27, 2017
 
-Updated on November 04, 2017 (Text level groundtruth)
+Updated on November 04, 2017 (Added text level groundtruth)
 
-Updated on April 03, 2018 (Pixel level groundtruth)
+Updated on April 03, 2018 (Added pixel level groundtruth)
 
 Updated on May 14, 2018 (Newly added feature - 'Do not care' candidates filtering is now available in the latest python scripts.)
 
