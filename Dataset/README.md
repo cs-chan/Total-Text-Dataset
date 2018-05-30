@@ -1,6 +1,6 @@
 ## Description
 
-The Total-Text dataset can be downloaded [this https URL](http://www.cs-chan.com/source/CVIU/ExDark.zip) (size = 1.4Gb).
+The ExDark dataset can be downloaded [this https URL](http://www.cs-chan.com/source/CVIU/ExDark.zip) (size = 1.4Gb).
 
 
 ## Dataset Information
