@@ -1,8 +1,10 @@
 # Total-Text-Dataset
 
-Updated on May 15, 2018 (Newly added groundtruth in '.txt' format.)
+Updated on August 24, 2018 (Newly added annotation tool folder)
 
-Updated on May 14, 2018 (Newly added feature - 'Do not care' candidates filtering is now available in the latest python scripts.)
+Updated on May 15, 2018 (Added groundtruth in '.txt' format.)
+
+Updated on May 14, 2018 (Added feature - 'Do not care' candidates filtering is now available in the latest python scripts.)
 
 Updated on April 03, 2018 (Added pixel level groundtruth)
 
