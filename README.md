@@ -1,6 +1,6 @@
 # Total-Text-Dataset
 
-Updated on August 24, 2018 (Newly added annotation tool folder)
+Updated on August 24, 2018 (Newly added [annotation tool](https://github.com/cs-chan/Artwork-GAN/tree/master/ICIP-16) folder. folder)
 
 Updated on May 15, 2018 (Added groundtruth in '.txt' format.)
 
