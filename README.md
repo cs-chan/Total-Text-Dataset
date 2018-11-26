@@ -1,5 +1,7 @@
 # Total-Text-Dataset
 
+Updated on November 26, 2018 (Table ranking is included for reference.)
+
 Updated on August 24, 2018 (Newly added [annotation tool](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Annotation_tools) folder.)
 
 Updated on May 15, 2018 (Added groundtruth in '.txt' format.)
@@ -11,6 +13,29 @@ Updated on April 03, 2018 (Added pixel level groundtruth)
 Updated on November 04, 2017 (Added text level groundtruth)
 
 Released on October 27, 2017
+
+## Table Ranking
+
+- The results from recent papers on the Total-Text dataset are listed.
+
+### Detection
+| Method     |  Precision (%)  |  Recall (%)  |   F-measure (%)     |   Published at    |
+|:--------:  | :-----:   | :----:      |  :-----:     |    :-----:    |
+|FTSN [[paper]](https://arxiv.org/abs/1709.03272)        | 84.7     |  78.0       |    81.3     |          ICPR2018    |
+|TextSnake [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Shangbang_Long_TextSnake_A_Flexible_ECCV_2018_paper.pdf)| 82.7     |  74.5       |    78.4      |     ECCV2018        | 
+|Mask TextSpotter [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Pengyuan_Lyu_Mask_TextSpotter_An_ECCV_2018_paper.pdf)     | 69.0     |  55.0       |    61.3      |      ECCV2018         |
+|Textboxes [[paper]](https://arxiv.org/abs/1611.06779)             | 62.1     |  45.5       |    52.5      |        AAAI2017      |
+|EAST [[paper]](https://arxiv.org/abs/1704.03155)             | 50.0     |  36.2       |    42.0      |        CVPR2017      |
+|Baseline [[paper]](http://export.arxiv.org/abs/1806.02559)  | 33.0     |  40.0      |    36.0     |   ICDAR2017          |
+|SegLink [[paper]](https://arxiv.org/abs/1703.06520)             | 30.3     |  23.8       |    26.7      |        CVPR2017      |
+
+### End-to-end Recognition (None refers to recognition without any lexicon; Full lexicon contains all words in test set.)
+| Method     |  None (%)  |  Full (%)  |   Published at    |
+|:--------:  | :-----:   | :----:      |    :-----:    |
+|Mask TextSpotter [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Pengyuan_Lyu_Mask_TextSpotter_An_ECCV_2018_paper.pdf)  | 52.9     |  71.8      |    ECCV2018          |
+|Textboxes [[paper]](https://arxiv.org/abs/1611.06779)        | 36.3     |  48.9       |         AAAI2017    |
+
+(Note that these two table only list the results from published papers. If your result is missing, please do not hesisate to contact us.)
 
 ## Description
 
