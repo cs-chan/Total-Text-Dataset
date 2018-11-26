@@ -18,7 +18,7 @@ Released on October 27, 2017
 
 - The results from recent papers on the Total-Text dataset are listed.
 
-### Detection
+### Detection (based on DetEval evaluation protocol, unless stated)
 | Method     |  Precision (%)  |  Recall (%)  |   F-measure (%)     |   Published at    |
 |:--------:  | :-----:   | :----:      |  :-----:     |    :-----:    |
 |FTSN [[paper]](https://arxiv.org/abs/1709.03272)        | 84.7     |  78.0       |    81.3     |          ICPR2018    |
@@ -35,7 +35,7 @@ Released on October 27, 2017
 |Mask TextSpotter [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Pengyuan_Lyu_Mask_TextSpotter_An_ECCV_2018_paper.pdf)  | 52.9     |  71.8      |    ECCV2018          |
 |Textboxes [[paper]](https://arxiv.org/abs/1611.06779)        | 36.3     |  48.9       |         AAAI2017    |
 
-(Note that these two table only list the results from published papers. If your result is missing, please do not hesisate to contact us.)
+(Note that these results are extracted from respective published papers. If your result is missing or incorrect, please do not hesisate to contact us.)
 
 ## Description
 
