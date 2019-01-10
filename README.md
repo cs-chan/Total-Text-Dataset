@@ -21,9 +21,10 @@ Released on October 27, 2017
 ### Detection (based on DetEval evaluation protocol, unless stated)
 | Method     |  Precision (%)  |  Recall (%)  |   F-measure (%)     |   Published at    |
 |:--------:  | :-----:   | :----:      |  :-----:     |    :-----:    |
+|MSR [[paper]](https://arxiv.org/abs/1901.02596)        | 85.2     |  73.0       |    78.6     |         arXiv:1901.02596    |
 |FTSN [[paper]](https://arxiv.org/abs/1709.03272)        | 84.7     |  78.0       |    81.3     |          ICPR2018    |
 |TextSnake [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Shangbang_Long_TextSnake_A_Flexible_ECCV_2018_paper.pdf)| 82.7     |  74.5       |    78.4      |     ECCV2018        | 
-|TextField [[paper]](https://arxiv.org/pdf/1812.01393.pdf)     | 81.2     |  79.9       |    80.6      |      arXiv:1812.01393         |
+|TextField [[paper]](https://arxiv.org/pdf/1812.01393.pdf)     | 81.2     |  79.9   |    80.6      | arXiv:1812.01393         |
 |Mask TextSpotter [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Pengyuan_Lyu_Mask_TextSpotter_An_ECCV_2018_paper.pdf)     | 69.0     |  55.0       |    61.3      |      ECCV2018         |
 |TextNet [[paper]](https://arxiv.org/abs/1812.09900)     | 68.2     |  59.5       |    63.5      |      ACCV2018         |
 |Textboxes [[paper]](https://arxiv.org/abs/1611.06779)             | 62.1     |  45.5       |    52.5      |        AAAI2017      |
