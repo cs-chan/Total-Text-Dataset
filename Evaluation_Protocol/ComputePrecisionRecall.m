@@ -3,8 +3,8 @@ function [ precision, recall ] = ComputePrecisionRecall( tau, sigma, tp,tr,k,fsc
 %   Detailed explanation goes here
 
 if nargin == 2
-    tr = 0.8;   % recall threshold
-    tp = 0.4;   % precision threshold
+    tr = 0.7;   % recall threshold
+    tp = 0.6;   % precision threshold
     k = 2;      % min number of matches, used in penalizing split & merge
     fsc_k = 0.8;% penalize value of split or merge
 end
