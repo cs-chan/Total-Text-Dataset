@@ -17,9 +17,9 @@ close all;
 % gtPath: Path to groundtruth directory
 % infPath: Path to prediction directory 
 % fidPath: A text file directory to capture all individual results
-gtPath = '/home/ck/Dropbox/Evaluation_Protocol/Examples/Groundtruth';
-predPath = '/home/ck/Dropbox/Evaluation_Protocol/Examples/Prediction';
-fidPath = '/home/ck/Dropbox/Evaluation_Protocol/Examples/Result.txt';
+gtPath = '';
+predPath = '';
+fidPath = '';
 
 % This script will look to load your result files(infPath) based on what you have in
 % gtPath.
@@ -27,8 +27,8 @@ allFiles = dir(gtPath);
 allNames = { allFiles.name };
 
 % constants
-tr = 0.8;   % recall threshold
-tp = 0.4;   % precision threshold
+tr = 0.7;   % recall threshold
+tp = 0.6;   % precision threshold
 k_t = 2;      % min number of matches, used in penalizing split & merge
 fsc_k = 0.8;    % penalize value of split or merge
 
