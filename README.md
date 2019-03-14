@@ -22,7 +22,7 @@ Released on October 27, 2017
 | Method     |  Precision (%)  |  Recall (%)  |   F-measure (%)     |   Published at    |
 |:--------:  | :-----:   | :----:      |  :-----:     |    :-----:    |
 |MSR [[paper]](https://arxiv.org/abs/1901.02596)        | 85.2     |  73.0       |    78.6     |         arXiv:1901.02596    |
-|FTSN [[paper]](https://arxiv.org/abs/1709.03272)    (Pascal VOC)    | 84.7     |  78.0       |    81.3     |          ICPR2018    |
+|FTSN [[paper]](https://arxiv.org/abs/1709.03272)    (Pascal VOC IoU metric)    | 84.7     |  78.0       |    81.3     |          ICPR2018    |
 |TextSnake [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Shangbang_Long_TextSnake_A_Flexible_ECCV_2018_paper.pdf)| 82.7     |  74.5       |    78.4      |     ECCV2018        | 
 |TextField [[paper]](https://arxiv.org/pdf/1812.01393.pdf)     | 81.2     |  79.9   |    80.6      | TIP2019      |
 |CTD [[paper]](https://www.sciencedirect.com/science/article/pii/S0031320319300664)     | 74.0     |  71.0   |    73.0      | PR2019         |
