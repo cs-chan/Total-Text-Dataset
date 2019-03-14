@@ -18,7 +18,7 @@ Released on October 27, 2017
 
 - The results from recent papers on the Total-Text dataset are listed.
 
-### Detection (based on DetEval evaluation protocol with tp=0.8 and tr=0.6, unless stated)
+### Detection (based on DetEval evaluation protocol with tr = 0.8, tp = 0.4, unless stated)
 | Method     |  Precision (%)  |  Recall (%)  |   F-measure (%)     |   Published at    |
 |:--------:  | :-----:   | :----:      |  :-----:     |    :-----:    |
 |MSR [[paper]](https://arxiv.org/abs/1901.02596)        | 85.2     |  73.0       |    78.6     |         arXiv:1901.02596    |
