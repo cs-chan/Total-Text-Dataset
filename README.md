@@ -1,5 +1,7 @@
 # Total-Text-Dataset
 
+Updated on March 14, 2019 (Updated table ranking with evaluation protocol info.)
+
 Updated on November 26, 2018 (Table ranking is included for reference.)
 
 Updated on August 24, 2018 (Newly added [annotation tool](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Annotation_tools) folder.)
