@@ -28,8 +28,8 @@ Released on October 27, 2017
 |MSR [[paper]](https://arxiv.org/abs/1901.02596)        | 85.2     |  73.0       |    78.6     |         arXiv:1901.02596    |
 |TextSnake [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Shangbang_Long_TextSnake_A_Flexible_ECCV_2018_paper.pdf)| 82.7     |  74.5       |    78.4      |     ECCV2018        | 
 |CTD [[paper]](https://www.sciencedirect.com/science/article/pii/S0031320319300664)     | 74.0     |  71.0   |    73.0      | PR2019         |
-|Mask TextSpotter [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Pengyuan_Lyu_Mask_TextSpotter_An_ECCV_2018_paper.pdf)     | 69.0     |  55.0       |    61.3      |      ECCV2018         |
 |TextNet [[paper]](https://arxiv.org/abs/1812.09900)     | 68.2     |  59.5       |    63.5      |      ACCV2018         |
+|Mask TextSpotter [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Pengyuan_Lyu_Mask_TextSpotter_An_ECCV_2018_paper.pdf)     | 69.0     |  55.0       |    61.3      |      ECCV2018         |
 |CENet [[paper]](https://arxiv.org/abs/1901.00363)             | 59.9     |  54.4       |    57.0      |        ACCV2018      |
 |Textboxes [[paper]](https://arxiv.org/abs/1611.06779)             | 62.1     |  45.5       |    52.5      |        AAAI2017      |
 |EAST [[paper]](https://arxiv.org/abs/1704.03155)             | 50.0     |  36.2       |    42.0      |        CVPR2017      |
