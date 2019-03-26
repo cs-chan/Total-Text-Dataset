@@ -36,11 +36,11 @@ def gt_reading_mod(gt_dir, gt_id):
 def detection_filtering(detections, groundtruths, threshold=0.5):
     for gt_id, gt in enumerate(groundtruths):
         if (gt[5] == '#') and (gt[1].shape[1] > 1):
-            gt_x = map(int, np.squeeze(gt[1]))
-            gt_y = map(int, np.squeeze(gt[3]))
+            gt_x = list(map(int, np.squeeze(gt[1])))
+            gt_y = list(map(int, np.squeeze(gt[3])))
             for det_id, detection in enumerate(detections):
                 detection = detection.split(',')
-                detection = map(int, detection)
+                detection = list(map(int, detection))
                 det_y = detection[0::2]
                 det_x = detection[1::2]
                 det_gt_iou = iod(det_x, det_y, gt_x, gt_y)
@@ -93,11 +93,11 @@ for input_id in tqdm(allInputs):
             if len(detections) > 0:
                 for det_id, detection in enumerate(detections):
                     detection = detection.split(',')
-                    detection = map(int, detection)
+                    detection = list(map(int, detection))
                     det_y = detection[0::2]
                     det_x = detection[1::2]
-                    gt_x = map(int, np.squeeze(gt[1]))
-                    gt_y = map(int, np.squeeze(gt[3]))
+                    gt_x = list(map(int, np.squeeze(gt[1])))
+                    gt_y = list(map(int, np.squeeze(gt[3])))
 
                     local_sigma_table[gt_id, det_id] = sigma_calculation(det_x, det_y, gt_x, gt_y)
                     local_tau_table[gt_id, det_id] = tau_calculation(det_x, det_y, gt_x, gt_y)
