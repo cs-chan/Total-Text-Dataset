@@ -86,13 +86,6 @@ for input_id in allInputs:
                         global_tp = global_tp + 1.0
                         det_flag[best_matched_det_id] = 1
                         gt_flag[gt_id] = 1
-                    else:
-                        tp = tp + 1.0
-                        global_tp = global_tp + 1.0
-                        det_flag[best_matched_det_id] = 1
-                        gt_flag[gt_id] = 1
-                        #if there are more than 1 matched detection, only 1 is contributed to tp, the rest are fp
-                        fp = fp + (matched_id[0].shape[0] - 1.0)
 
         #Update local and global tp, fp, and fn
         inv_gt_flag = 1 - gt_flag
