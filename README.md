@@ -61,12 +61,12 @@ Released on October 27, 2017
            <td>81.2</td>
            <td>79.9</td>
            <td>80.6</td>
-           <td>76.0</td>
-           <td>75.0</td>
-           <td>76.0</td>
+           <td>76.1</td>
+           <td>75.1</td>
+           <td>75.6</td>
            <td>83.0</td>
            <td>82.0</td>
-           <td>83.0</td>
+           <td>82.5</td>
            <td>TIP2019</td>
         </tr>
         <tr>
@@ -87,12 +87,12 @@ Released on October 27, 2017
            <td>85.2</td>
            <td>73.0</td>
            <td>78.6</td>
-           <td>69.0</td>
-           <td>75.0</td>
-           <td>71.0</td>
-           <td>81.0</td>
-           <td>73.0</td>
-           <td>77.0</td>
+           <td>82.7</td>
+           <td>68.3</td>
+           <td>74.9</td>
+           <td>81.4</td>
+           <td>72.5</td>
+           <td>76.7</td>
            <td>arXiv:1901.02596</td>
         </tr>
         <tr>
@@ -113,12 +113,12 @@ Released on October 27, 2017
            <td>74.0</td>
            <td>71.0</td>
            <td>73.0</td>
-           <td>61.0</td>
-           <td>59.0</td>
-           <td>60.0</td>
-           <td>77.0</td>
-           <td>74.0</td>
-           <td>75.0</td>
+           <td>60.7</td>
+           <td>58.8</td>
+           <td>59.8</td>
+           <td>76.5</td>
+           <td>73.8</td>
+           <td>75.2</td>
            <td>PR2019</td>
         </tr>
         <tr>
@@ -139,12 +139,12 @@ Released on October 27, 2017
            <td>69.0</td>
            <td>55.0</td>
            <td>61.3</td>
-           <td>83.0</td>
-           <td>68.0</td>
-           <td>75.0</td>
-           <td>83.0</td>
-           <td>75.0</td>
-           <td>79.0</td>
+           <td>68.9</td>
+           <td>62.5</td>
+           <td>65.5</td>
+           <td>82.5</td>
+           <td>75.2</td>
+           <td>78.6</td>
            <td>ECCV2018</td>
         </tr>
         <tr>
