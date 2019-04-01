@@ -20,22 +20,200 @@ Released on October 27, 2017
 
 - The results from recent papers on the Total-Text dataset are listed.
 
-### Detection (based on DetEval evaluation protocol with tr = 0.8, tp = 0.4, unless stated)
-| Method     |  Precision (%)  |  Recall (%)  |   F-measure (%)     |   Published at    |
-|:--------:  | :-----:   | :----:      |  :-----:     |    :-----:    |
-|FTSN [[paper]](https://arxiv.org/abs/1709.03272)    (*Pascal VOC IoU metric)    | 84.7*    |  78.0*   |    81.3*     |          ICPR2018    |
-|TextField [[paper]](https://arxiv.org/pdf/1812.01393.pdf)     | 81.2     |  79.9   |    80.6      | TIP2019      |
-|CSE [[paper]](https://arxiv.org/abs/1903.08836)   [(^Polygon Regression)](https://arxiv.org/abs/1712.02170) | 81.4(80.9^)   |  79.7(80.3^) |    80.2(80.6^)   | CVPR2019      |
-|MSR [[paper]](https://arxiv.org/abs/1901.02596)        | 85.2     |  73.0       |    78.6     |         arXiv:1901.02596    |
-|TextSnake [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Shangbang_Long_TextSnake_A_Flexible_ECCV_2018_paper.pdf)| 82.7     |  74.5       |    78.4      |     ECCV2018        | 
-|CTD [[paper]](https://www.sciencedirect.com/science/article/pii/S0031320319300664)     | 74.0     |  71.0   |    73.0      | PR2019         |
-|TextNet [[paper]](https://arxiv.org/abs/1812.09900)     | 68.2     |  59.5       |    63.5      |      ACCV2018         |
-|Mask TextSpotter [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Pengyuan_Lyu_Mask_TextSpotter_An_ECCV_2018_paper.pdf)     | 69.0     |  55.0       |    61.3      |      ECCV2018         |
-|CENet [[paper]](https://arxiv.org/abs/1901.00363)             | 59.9     |  54.4       |    57.0      |        ACCV2018      |
-|Textboxes [[paper]](https://arxiv.org/abs/1611.06779)             | 62.1     |  45.5       |    52.5      |        AAAI2017      |
-|EAST [[paper]](https://arxiv.org/abs/1704.03155)             | 50.0     |  36.2       |    42.0      |        CVPR2017      |
-|Baseline [[paper]](http://cs-chan.com/doc/ICDAR17.pdf)  | 33.0     |  40.0      |    36.0     |   ICDAR2017          |
-|SegLink [[paper]](https://arxiv.org/abs/1703.06520)             | 30.3     |  23.8       |    26.7      |        CVPR2017      |
+### Detection
+<table>
+    <thead align="center">
+       <tr>
+           <th rowspan=2>Method</th>
+           <th colspan=3>Reported on paper</th>
+           <th colspan=3>DetEval (tp=0.4, tr=0.8)</th>
+           <th colspan=3>DetEval (tp=0.6, tr=0.7)</th>
+           <th rowspan=2>Published at</th>
+        </tr>
+        <tr>
+            <th>Precision</th>
+            <th>Recall</th>
+            <th>F-measure</th>
+            <th>Precision</th>
+            <th>Recall</th>
+            <th>F-measure</th>
+            <th>Precision</th>
+            <th>Recall</th>
+            <th>F-measure</th>
+        </tr>
+    </thead>
+    <tbody align="center">
+        <tr>
+           <td>FTSN <a href="https://arxiv.org/abs/1709.03272">[paper]</a> (*Pascal VOC IoU metric)</td>
+           <td>84.7*</td>
+           <td>78.0*</td>
+           <td>81.3*</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>ICPR2018</td>
+        </tr>
+        <tr>
+           <td>TextField <a href="https://arxiv.org/abs/1812.01393">[paper]</a></td>
+           <td>81.2</td>
+           <td>79.9</td>
+           <td>80.6</td>
+           <td>76.0</td>
+           <td>75.0</td>
+           <td>76.0</td>
+           <td>83.0</td>
+           <td>82.0</td>
+           <td>83.0</td>
+           <td>TIP2019</td>
+        </tr>
+        <tr>
+           <td>CSE <a href="https://arxiv.org/abs/1903.08836">[paper]</a> <a href="https://arxiv.org/abs/1712.02170">[(^Polygon Regression)]</a></td>
+           <td>81.4(80.9^)</td>
+           <td>79.7(80.3^)</td>
+           <td>80.2(80.6^)</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>CVPR2019</td>
+        </tr>
+        <tr>
+           <td>MSR <a href="https://arxiv.org/abs/1901.02596">[paper]</a></td>
+           <td>85.2</td>
+           <td>73.0</td>
+           <td>78.6</td>
+           <td>69.0</td>
+           <td>75.0</td>
+           <td>71.0</td>
+           <td>81.0</td>
+           <td>73.0</td>
+           <td>77.0</td>
+           <td>arXiv:1901.02596</td>
+        </tr>
+        <tr>
+           <td>TextSnake <a href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Shangbang_Long_TextSnake_A_Flexible_ECCV_2018_paper.pdf">[paper]</a></td>
+           <td>82.7</td>
+           <td>74.5</td>
+           <td>78.4</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>ECCV2018</td>
+        </tr>
+        <tr>
+           <td>CTD <a href="https://www.sciencedirect.com/science/article/pii/S0031320319300664">[paper]</a></td>
+           <td>74.0</td>
+           <td>71.0</td>
+           <td>73.0</td>
+           <td>61.0</td>
+           <td>59.0</td>
+           <td>60.0</td>
+           <td>77.0</td>
+           <td>74.0</td>
+           <td>75.0</td>
+           <td>PR2019</td>
+        </tr>
+        <tr>
+           <td>TextNet <a href="https://arxiv.org/abs/1812.09900">[paper]</a></td>
+           <td>68.2</td>
+           <td>59.5</td>
+           <td>63.5</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>ACCV2018</td>
+        </tr>
+        <tr>
+           <td>Mask TextSpotter <a href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Pengyuan_Lyu_Mask_TextSpotter_An_ECCV_2018_paper.pdf">[paper]</a></td>
+           <td>69.0</td>
+           <td>55.0</td>
+           <td>61.3</td>
+           <td>83.0</td>
+           <td>68.0</td>
+           <td>75.0</td>
+           <td>83.0</td>
+           <td>75.0</td>
+           <td>79.0</td>
+           <td>ECCV2018</td>
+        </tr>
+        <tr>
+           <td>CENet <a href="https://arxiv.org/abs/1901.00363">[paper]</a></td>
+           <td>59.9</td>
+           <td>54.4</td>
+           <td>57.0</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>ACCV2018</td>
+        </tr>
+        <tr>
+           <td>Textboxes <a href="https://arxiv.org/abs/1611.06779">[paper]</a></td>
+           <td>62.1</td>
+           <td>45.5</td>
+           <td>52.5</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>AAAI2017</td>
+        </tr>
+        <tr>
+           <td>EAST <a href="https://arxiv.org/abs/1704.03155">[paper]</a></td>
+           <td>50.0</td>
+           <td>36.2</td>
+           <td>42.0</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>CVPR2017</td>
+        </tr>
+        <tr>
+           <td>Baseline <a href="http://cs-chan.com/doc/ICDAR17.pdf">[paper]</a></td>
+           <td>33.0</td>
+           <td>40.0</td>
+           <td>36.0</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>ICDAR2017</td>
+        </tr>
+        <tr>
+           <td>SegLink <a href="https://arxiv.org/abs/1703.06520">[paper]</a></td>
+           <td>30.3</td>
+           <td>23.8</td>
+           <td>26.7</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>CVPR2017</td>
+        </tr>
+    </tbody>
+</table>
 
 ### End-to-end Recognition (None refers to recognition without any lexicon; Full lexicon contains all words in test set.)
 | Method     |  None (%)  |  Full (%)  |   Published at    |
