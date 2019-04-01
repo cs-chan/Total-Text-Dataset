@@ -1,10 +1,22 @@
 from os import listdir
 from scipy import io
 import numpy as np
-from polygon_wrapper import iod
-from polygon_wrapper import area_of_intersection
-from polygon_wrapper import area
+# mask counting version
+# from polygon_wrapper import iod
+# from polygon_wrapper import area_of_intersection
+# from polygon_wrapper import area
 
+# polygon based version
+from polygon_fast import iod
+from polygon_fast import area_of_intersection
+from polygon_fast import area
+from tqdm import tqdm
+
+try: # python2
+    range = xrange
+except Exception:
+    # python3
+    range = range
 
 """
 Input format: y0,x0, ..... yn,xn. Each detection is separated by the end of line token ('\n')'
@@ -54,6 +66,7 @@ def sigma_calculation(det_x, det_y, gt_x, gt_y):
     """
     sigma = inter_area / gt_area
     """
+    # print(area_of_intersection(det_x, det_y, gt_x, gt_y))
     return np.round((area_of_intersection(det_x, det_y, gt_x, gt_y) / area(gt_x, gt_y)), 2)
 
 def tau_calculation(det_x, det_y, gt_x, gt_y):
@@ -79,7 +92,7 @@ for input_id in tqdm(allInputs):
     if (input_id != '.DS_Store') and (input_id != 'Pascal_result.txt') and (
             input_id != 'Pascal_result_curved.txt') and (input_id != 'Pascal_result_non_curved.txt') and (input_id != 'Deteval_result.txt') and (input_id != 'Deteval_result_curved.txt') \
             and (input_id != 'Deteval_result_non_curved.txt'):
-        print(input_id)
+        # print(input_id)
         detections = input_reading_mod(input_dir, input_id)
         groundtruths = gt_reading_mod(gt_dir, input_id)
         detections = detection_filtering(detections, groundtruths)  # filters detections overlapping with DC area
@@ -114,7 +127,7 @@ total_num_det = 0
 def one_to_one(local_sigma_table, local_tau_table, local_accumulative_recall,
                local_accumulative_precision, global_accumulative_recall, global_accumulative_precision,
                gt_flag, det_flag):
-    for gt_id in xrange(num_gt):
+    for gt_id in range(num_gt):
         qualified_sigma_candidates = np.where(local_sigma_table[gt_id, :] > tr)
         num_qualified_sigma_candidates = qualified_sigma_candidates[0].shape[0]
         qualified_tau_candidates = np.where(local_tau_table[gt_id, :] > tp)
@@ -135,7 +148,7 @@ def one_to_one(local_sigma_table, local_tau_table, local_accumulative_recall,
 def one_to_many(local_sigma_table, local_tau_table, local_accumulative_recall,
                local_accumulative_precision, global_accumulative_recall, global_accumulative_precision,
                gt_flag, det_flag):
-    for gt_id in xrange(num_gt):
+    for gt_id in range(num_gt):
         #skip the following if the groundtruth was matched
         if gt_flag[0, gt_id] > 0:
             continue
@@ -173,7 +186,7 @@ def one_to_many(local_sigma_table, local_tau_table, local_accumulative_recall,
 def many_to_one(local_sigma_table, local_tau_table, local_accumulative_recall,
                local_accumulative_precision, global_accumulative_recall, global_accumulative_precision,
                gt_flag, det_flag):
-    for det_id in xrange(num_det):
+    for det_id in range(num_det):
         # skip the following if the detection was matched
         if det_flag[0, det_id] > 0:
             continue
@@ -207,7 +220,7 @@ def many_to_one(local_sigma_table, local_tau_table, local_accumulative_recall,
                 local_accumulative_precision = local_accumulative_precision + fsc_k
     return local_accumulative_recall, local_accumulative_precision, global_accumulative_recall, global_accumulative_precision, gt_flag, det_flag
 
-for idx in xrange(len(global_sigma)):
+for idx in range(len(global_sigma)):
     print(allInputs[idx])
     local_sigma_table = global_sigma[idx]
     local_tau_table = global_tau[idx]
