@@ -214,8 +214,11 @@ Released on October 27, 2017
         </tr>
     </tbody>
 </table>
+
 Note:
-1) For the results of TextField and CTD, the improved versions of their original paper were used, which explains the better performances (Column 1 vs Column 3).
+
+1) For the results of TextField and CTD, the improved versions of their original paper were used, and this explains why the performance is better.
+
 2) For Mask-TextSpotter, the relatively worse performance reported on their paper was due to a bug in the input reading module (which was fixed recently). The authors were informed about this issue.
 
 ### End-to-end Recognition (None refers to recognition without any lexicon; Full lexicon contains all words in test set.)
