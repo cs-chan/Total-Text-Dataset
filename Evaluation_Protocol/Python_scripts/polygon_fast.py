@@ -1,5 +1,4 @@
 import numpy as np
-from skimage.draw import polygon
 from shapely.geometry import Polygon
 
 """
@@ -66,5 +65,3 @@ def iod(det_x, det_y, gt_x, gt_y):
     This helper determine the fraction of intersection area over detection area
     """
     return area_of_intersection(det_x, det_y, gt_x, gt_y) / (area(det_x, det_y) + 1.0)
-
-    

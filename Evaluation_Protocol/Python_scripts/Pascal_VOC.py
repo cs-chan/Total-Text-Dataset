@@ -1,9 +1,8 @@
 from os import listdir
 from scipy import io
 import numpy as np
-from skimage.draw import polygon
-from polygon_wrapper import iou
-from polygon_wrapper import iod
+from polygon_fast import iou
+from polygon_fast import iod
 
 
 """
@@ -112,26 +111,3 @@ temp = ('Precision:_%s_______/Recall:_%s\n' %(str(global_precision), str(global_
 fid.write(temp)
 fid.close()
 print('pb')
-
-
-
-
-
-
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
