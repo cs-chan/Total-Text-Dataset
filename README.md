@@ -26,8 +26,8 @@ Released on October 27, 2017
        <tr>
            <th rowspan=2>Method</th>
            <th colspan=3>Reported on paper</th>
-           <th colspan=3>DetEval (tp=0.4, tr=0.8) (Default)</th>
-           <th colspan=3>DetEval (tp=0.6, tr=0.7) (New Proposal) </th>
+           <th colspan=3>DetEval (tp=0.4, tr=0.8) <br>(Default)</th>
+           <th colspan=3>DetEval (tp=0.6, tr=0.7) <br>(New Proposal) </th>
            <th rowspan=2>Published at</th>
         </tr>
         <tr>
@@ -44,10 +44,10 @@ Released on October 27, 2017
     </thead>
     <tbody align="center">
         <tr>
-           <td>FTSN <a href="https://arxiv.org/abs/1709.03272">[paper]</a> (*Pascal VOC IoU metric)</td>
-           <td>84.7*</td>
-           <td>78.0*</td>
-           <td>81.3*</td>
+           <td>FTSN <a href="https://arxiv.org/abs/1709.03272">[paper]</a> (<sup>*</sup>Pascal VOC IoU metric)</td>
+           <td><sup>*</sup>84.7</td>
+           <td><sup>*</sup>78.0</td>
+           <td><sup>*</sup>81.3</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
@@ -55,9 +55,22 @@ Released on October 27, 2017
            <td>-</td>
            <td>-</td>
            <td>ICPR2018</td>
-        </tr>
+        </tr>  
         <tr>
-           <td>TextField <a href="https://arxiv.org/abs/1812.01393">[paper]</a></td>
+           <td>TSENet <a href="https://arxiv.org/pdf/1903.12473.pdf">[paper]</a></td>
+           <td>84.02</td>
+           <td>77.96</td>
+           <td>80.87</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>CVPR2019</td>
+        </tr>  
+        <tr>
+            <td><sup>1</sup>TextField <a href="https://arxiv.org/abs/1812.01393">[paper]</a></td>
            <td>81.2</td>
            <td>79.9</td>
            <td>80.6</td>
@@ -70,10 +83,10 @@ Released on October 27, 2017
            <td>TIP2019</td>
         </tr>
         <tr>
-           <td>CSE <a href="https://arxiv.org/abs/1903.08836">[paper]</a> <a href="https://arxiv.org/abs/1712.02170">[(^Polygon Regression)]</a></td>
-           <td>81.4(80.9^)</td>
-           <td>79.7(80.3^)</td>
-           <td>80.2(80.6^)</td>
+           <td>CSE <a href="https://arxiv.org/abs/1903.08836">[paper]</a> <a href="https://arxiv.org/abs/1712.02170">(<sup>**</sup>Polygon Regression)</a></td>
+           <td>81.4<br>(<sup>**</sup>80.9)</td>
+           <td>79.7<br>(<sup>**</sup>80.3)</td>
+           <td>80.2<br>(<sup>**</sup>80.6)</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
@@ -109,7 +122,7 @@ Released on October 27, 2017
            <td>ECCV2018</td>
         </tr>
         <tr>
-           <td>CTD <a href="https://www.sciencedirect.com/science/article/pii/S0031320319300664">[paper]</a></td>
+           <td><sup>1</sup>CTD <a href="https://www.sciencedirect.com/science/article/pii/S0031320319300664">[paper]</a></td>
            <td>74.0</td>
            <td>71.0</td>
            <td>73.0</td>
@@ -135,7 +148,7 @@ Released on October 27, 2017
            <td>ACCV2018</td>
         </tr>
         <tr>
-           <td>Mask TextSpotter <a href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Pengyuan_Lyu_Mask_TextSpotter_An_ECCV_2018_paper.pdf">[paper]</a></td>
+           <td><sup>2</sup>Mask TextSpotter <a href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Pengyuan_Lyu_Mask_TextSpotter_An_ECCV_2018_paper.pdf">[paper]</a></td>
            <td>69.0</td>
            <td>55.0</td>
            <td>61.3</td>
