@@ -26,8 +26,8 @@ Released on October 27, 2017
        <tr>
            <th rowspan=2>Method</th>
            <th colspan=3>Reported on paper</th>
-           <th colspan=3>DetEval (tp=0.4, tr=0.8)</th>
-           <th colspan=3>DetEval (tp=0.6, tr=0.7)</th>
+           <th colspan=3>DetEval (Default values, tp=0.4, tr=0.8)</th>
+           <th colspan=3>DetEval (Proposed values for Total-Text, tp=0.6, tr=0.7)</th>
            <th rowspan=2>Published at</th>
         </tr>
         <tr>
