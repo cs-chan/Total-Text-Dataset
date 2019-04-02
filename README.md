@@ -1,5 +1,7 @@
 # Total-Text-Dataset
 
+Updated on April 02, 2019 (Updated table ranking with default vs. our proposed DetEval)
+
 Updated on March 14, 2019 (Updated table ranking with evaluation protocol info.)
 
 Updated on November 26, 2018 (Table ranking is included for reference.)
@@ -57,7 +59,7 @@ Released on October 27, 2017
            <td>ICPR2018</td>
         </tr>  
         <tr>
-           <td>TSENet <a href="https://arxiv.org/pdf/1903.12473.pdf">[paper]</a></td>
+           <td>TSENet <a href="https://arxiv.org/abs/1903.12473">[paper]</a></td>
            <td>84.02</td>
            <td>77.96</td>
            <td>80.87</td>
