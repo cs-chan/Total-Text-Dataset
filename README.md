@@ -2,6 +2,8 @@
 
 Updated on April 02, 2019 (Updated table ranking with default vs. our proposed DetEval)
 
+Updated on March 31, 2019 (Faster version DetEval.py, support Python3. Thank you [princewang1994](https://github.com/princewang1994).)
+
 Updated on March 14, 2019 (Updated table ranking with evaluation protocol info.)
 
 Updated on November 26, 2018 (Table ranking is included for reference.)
