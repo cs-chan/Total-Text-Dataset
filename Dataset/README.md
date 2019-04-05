@@ -1,6 +1,6 @@
 ## Description
 
-The Total-Text dataset can be downloaded at [this https URL](http://www.cs-chan.com/source/ICDAR2017/totaltext.zip) (size = 441Mb).
+The Total-Text dataset can be downloaded at [this https URL](https://drive.google.com/file/d/1bC68CzsSVTusZVvOkk7imSZSbgD1MqK2/view?usp=sharing) (size = 441Mb).
 
 <img src="image.png" width="100%">
 
