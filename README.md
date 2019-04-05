@@ -48,6 +48,19 @@ Released on October 27, 2017
     </thead>
     <tbody align="center">
         <tr>
+           <td>CRAFT <a href="https://arxiv.org/abs/1904.01941">[paper]</a></td>
+           <td>87.6</td>
+           <td>79.9</td>
+           <td>83.6</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>CVPR2019</td>
+        </tr> 
+        <tr>
            <td>FTSN <a href="https://arxiv.org/abs/1709.03272">[paper]</a> (<sup>*</sup>Pascal VOC IoU metric)</td>
            <td><sup>*</sup>84.7</td>
            <td><sup>*</sup>78.0</td>
