@@ -22,28 +22,28 @@ Released on October 27, 2017
 
 ## Table Ranking
 
-- The results from recent papers on the Total-Text dataset are listed.
+- The results from recent papers on the Total-Text dataset are listed where P=Precision, R=Recall & F=F-score.
 
 ### Detection
 <table>
     <thead align="center">
        <tr>
            <th rowspan=2>Method</th>
-           <th colspan=3>Reported on paper</th>
-           <th colspan=3>DetEval (tp=0.4, tr=0.8) <br>(Default)</th>
-           <th colspan=3>DetEval (tp=0.6, tr=0.7) <br>(New Proposal) </th>
+           <th colspan=3>Reported <br>on paper</th>
+           <th colspan=3>DetEval <br> (tp=0.4, tr=0.8) <br>(Default)</th>
+           <th colspan=3>DetEval <br>(tp=0.6, tr=0.7) <br>(New Proposal) </th>
            <th rowspan=2>Published at</th>
         </tr>
         <tr>
-            <th>Precision</th>
-            <th>Recall</th>
-            <th>F-measure</th>
-            <th>Precision</th>
-            <th>Recall</th>
-            <th>F-measure</th>
-            <th>Precision</th>
-            <th>Recall</th>
-            <th>F-measure</th>
+            <th>P</th>
+            <th>R</th>
+            <th>F</th>
+            <th>P</th>
+            <th>R</th>
+            <th>F</th>
+            <th>P</th>
+            <th>R</th>
+            <th>F</th>
         </tr>
     </thead>
     <tbody align="center">
