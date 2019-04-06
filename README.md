@@ -23,6 +23,7 @@ Released on October 27, 2017
 ## Table Ranking
 
 - The results from recent papers on the Total-Text dataset are listed where P=Precision, R=Recall & F=F-score.
+- <sup>*</sup>Pascal VOC IoU metric; <a href="https://arxiv.org/abs/1712.02170"><sup>**</sup>Polygon Regression</a>
 
 ### Detection
 <table>
@@ -61,7 +62,7 @@ Released on October 27, 2017
            <td>CVPR2019</td>
         </tr> 
         <tr>
-           <td>FTSN <a href="https://arxiv.org/abs/1709.03272">[paper]</a> (<sup>*</sup>Pascal VOC IoU metric)</td>
+           <td>FTSN <a href="https://arxiv.org/abs/1709.03272">[paper]</a></td>
            <td><sup>*</sup>84.7</td>
            <td><sup>*</sup>78.0</td>
            <td><sup>*</sup>81.3</td>
@@ -100,7 +101,7 @@ Released on October 27, 2017
            <td>TIP2019</td>
         </tr>
         <tr>
-           <td>CSE <a href="https://arxiv.org/abs/1903.08836">[paper]</a> <a href="https://arxiv.org/abs/1712.02170">(<sup>**</sup>Polygon Regression)</a></td>
+           <td>CSE <a href="https://arxiv.org/abs/1903.08836">[paper]</a></td>
            <td>81.4<br>(<sup>**</sup>80.9)</td>
            <td>79.7<br>(<sup>**</sup>80.3)</td>
            <td>80.2<br>(<sup>**</sup>80.6)</td>
