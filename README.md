@@ -23,7 +23,7 @@ Released on October 27, 2017
 ## Table Ranking
 
 - The results from recent papers on the Total-Text dataset are listed below where P=Precision, R=Recall & F=F-score.
-- These results are extracted from respective published papers. If your result is missing or incorrect, please do not hesisate to contact us.
+- If your result is missing or incorrect, please do not hesisate to contact us.
 - <sup>*</sup>Pascal VOC IoU metric; <a href="https://arxiv.org/abs/1712.02170"><sup>**</sup>Polygon Regression</a>
 
 ### Detection
