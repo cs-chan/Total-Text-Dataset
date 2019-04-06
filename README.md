@@ -22,8 +22,9 @@ Released on October 27, 2017
 
 ## Table Ranking
 
-- The results from recent papers on the Total-Text dataset are listed where P=Precision, R=Recall & F=F-score.
+- The results from recent papers on the Total-Text dataset are listed below where P=Precision, R=Recall & F=F-score.
 - <sup>*</sup>Pascal VOC IoU metric; <a href="https://arxiv.org/abs/1712.02170"><sup>**</sup>Polygon Regression</a>
+- These results are extracted from respective published papers. If your result is missing or incorrect, please do not hesisate to contact us.
 
 ### Detection
 <table>
@@ -248,9 +249,9 @@ Released on October 27, 2017
 
 Note:
 
-1) For the results of TextField and CTD, the improved versions of their original paper were used, and this explains why the performance is better.
+<sup>1</sup>For the results of TextField and CTD, the improved versions of their original paper were used, and this explains why the performance is better.
 
-2) For Mask-TextSpotter, the relatively poor performance reported in their paper was due to a bug in the input reading module (which was fixed recently). The authors were informed about this issue.
+<sup>2</sup>For Mask-TextSpotter, the relatively poor performance reported in their paper was due to a bug in the input reading module (which was fixed recently). The authors were informed about this issue.
 
 ### End-to-end Recognition (None refers to recognition without any lexicon; Full lexicon contains all words in test set.)
 | Method     |  None (%)  |  Full (%)  |   Published at    |
@@ -259,8 +260,6 @@ Note:
 |TextNet [[paper]](https://arxiv.org/abs/1812.09900)     | 54.0     |  -    |      ACCV2018         |
 |Mask TextSpotter [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Pengyuan_Lyu_Mask_TextSpotter_An_ECCV_2018_paper.pdf)  | 52.9     |  71.8      |    ECCV2018          |
 |Textboxes [[paper]](https://arxiv.org/abs/1611.06779)        | 36.3     |  48.9       |         AAAI2017    |
-
-(Note that these results are extracted from respective published papers. If your result is missing or incorrect, please do not hesisate to contact us.)
 
 ## Description
 
