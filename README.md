@@ -23,8 +23,8 @@ Released on October 27, 2017
 ## Table Ranking
 
 - The results from recent papers on the Total-Text dataset are listed below where P=Precision, R=Recall & F=F-score.
-- <sup>*</sup>Pascal VOC IoU metric; <a href="https://arxiv.org/abs/1712.02170"><sup>**</sup>Polygon Regression</a>
 - These results are extracted from respective published papers. If your result is missing or incorrect, please do not hesisate to contact us.
+- <sup>*</sup>Pascal VOC IoU metric; <a href="https://arxiv.org/abs/1712.02170"><sup>**</sup>Polygon Regression</a>
 
 ### Detection
 <table>
@@ -253,7 +253,7 @@ Note:
 
 <sup>2</sup>For Mask-TextSpotter, the relatively poor performance reported in their paper was due to a bug in the input reading module (which was fixed recently). The authors were informed about this issue.
 
-### End-to-end Recognition (None refers to recognition without any lexicon; Full lexicon contains all words in test set.)
+### End-to-end Recognition <br> (None refers to recognition without any lexicon; Full lexicon contains all words in test set.)
 | Method     |  None (%)  |  Full (%)  |   Published at    |
 |:--------:  | :-----:   | :----:      |    :-----:    |
 |CNN+CTC [[paper]](https://www.sciencedirect.com/science/article/pii/S0925231219301870)     | 77.5     |  -    |      Neurocomputing2019         |
