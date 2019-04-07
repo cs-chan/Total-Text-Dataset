@@ -22,7 +22,7 @@ Released on October 27, 2017
 
 # News
 
-TOTAL-TEXT is a word-level based English curve text dataset. If you are insterested in text-line based dataset with both English and Chinese instances, we highly recommend you refer to [SCUT-CTW1500](https://github.com/Yuliang-Liu/Curve-Text-Detector). In addition, a recent ICDAR2019 Robust Reading Challenge on Arbitrary-Shaped Text ([ArT](http://rrc.cvc.uab.es/?ch=14)), which is extended from Total-Text and SCUT-CTW1500, is held for stimulating more improvements on the arbitrary-shaped text reading task. We welcome your participantion, and the winner will be rewarded with substantial awards.
+TOTAL-TEXT is a word-level based English curve text dataset. If you are insterested in text-line based dataset with both English and Chinese instances, we highly recommend you refer to [SCUT-CTW1500](https://github.com/Yuliang-Liu/Curve-Text-Detector). In addition, a recent ICDAR2019 Robust Reading Challenge on Arbitrary-Shaped Text ([ArT](http://rrc.cvc.uab.es/?ch=14)), which is extended from Total-Text and SCUT-CTW1500, is held for stimulating more improvements on the arbitrary-shaped text reading task. We welcome your participation, and the winner will be rewarded with substantial awards.
 
 ## Table Ranking
 
