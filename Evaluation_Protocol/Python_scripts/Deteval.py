@@ -134,7 +134,9 @@ def one_to_one(local_sigma_table, local_tau_table, local_accumulative_recall,
         num_qualified_tau_candidates = qualified_tau_candidates[0].shape[0]
 
 
-        if (num_qualified_sigma_candidates == 1) and (num_qualified_tau_candidates == 1):
+        if (num_qualified_sigma_candidates == 1) and (num_qualified_tau_candidates == 1) and \
+                    np.where(local_sigma_table[:, qualified_sigma_candidates[0][0]] > tr)[0].shape[0] == 1 and \
+                    np.where(local_tau_table[:, qualified_tau_candidates[0][0]] > tp)[0].shape[0] == 1:
             global_accumulative_recall = global_accumulative_recall + 1.0
             global_accumulative_precision = global_accumulative_precision + 1.0
             local_accumulative_recall = local_accumulative_recall + 1.0
