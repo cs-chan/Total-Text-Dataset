@@ -128,13 +128,19 @@ def one_to_one(local_sigma_table, local_tau_table, local_accumulative_recall,
                local_accumulative_precision, global_accumulative_recall, global_accumulative_precision,
                gt_flag, det_flag):
     for gt_id in range(num_gt):
-        qualified_sigma_candidates = np.where(local_sigma_table[gt_id, :] > tr)
-        num_qualified_sigma_candidates = qualified_sigma_candidates[0].shape[0]
-        qualified_tau_candidates = np.where(local_tau_table[gt_id, :] > tp)
-        num_qualified_tau_candidates = qualified_tau_candidates[0].shape[0]
+        gt_matching_qualified_sigma_candidates = np.where(local_sigma_table[gt_id, :] > tr)
+        gt_matching_num_qualified_sigma_candidates = gt_matching_qualified_sigma_candidates[0].shape[0]
+        gt_matching_qualified_tau_candidates = np.where(local_tau_table[gt_id, :] > tp)
+        gt_matching_num_qualified_tau_candidates = gt_matching_qualified_tau_candidates[0].shape[0]
+
+        det_matching_qualified_sigma_candidates = np.where(local_sigma_table[:, gt_matching_qualified_sigma_candidates[0]] > tr)
+        det_matching_num_qualified_sigma_candidates = det_matching_qualified_sigma_candidates[0].shape[0]
+        det_matching_qualified_tau_candidates = np.where(local_tau_table[:, gt_matching_qualified_tau_candidates[0]] > tp)
+        det_matching_num_qualified_tau_candidates = det_matching_qualified_tau_candidates[0].shape[0]
 
 
-        if (num_qualified_sigma_candidates == 1) and (num_qualified_tau_candidates == 1):
+        if (gt_matching_num_qualified_sigma_candidates == 1) and (gt_matching_num_qualified_tau_candidates == 1) and \
+                (det_matching_num_qualified_sigma_candidates == 1) and (det_matching_num_qualified_tau_candidates == 1):
             global_accumulative_recall = global_accumulative_recall + 1.0
             global_accumulative_precision = global_accumulative_precision + 1.0
             local_accumulative_recall = local_accumulative_recall + 1.0
@@ -294,53 +300,3 @@ temp = ('Precision:_%s_______/Recall:_%s\n' %(str(precision), str(recall)))
 fid.write(temp)
 fid.close()
 print(temp)
-
-print('pb')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
