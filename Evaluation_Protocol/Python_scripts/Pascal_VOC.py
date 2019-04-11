@@ -110,7 +110,7 @@ for input_id in allInputs:
         fid.write(temp)
         fid.close()
             
-global_precision = global_tp / (global_tp + global_fp)
+global_precision = global_tp / global_num_of_det
 global_recall = global_tp / global_num_of_gt
 f_score = 2*global_precision*global_recall/(global_precision+global_recall)
 
