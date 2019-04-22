@@ -67,10 +67,10 @@ TOTAL-TEXT is a word-level based English curve text dataset. If you are insteres
            <td>CVPR2019</td>
         </tr>
         <tr>
-           <td>LOMO (LOMO MS) <a href="https://arxiv.org/abs/1904.06535">[paper]</a></td>
-           <td>88.6 (87.6)</td>
-           <td>75.7 (79.3)</td>
-           <td>81.6 (83.3)</td>
+           <td>LOMO MS <a href="https://arxiv.org/abs/1904.06535">[paper]</a></td>
+           <td>87.6</td>
+           <td>79.3</td>
+           <td>83.3</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
