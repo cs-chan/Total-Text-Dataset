@@ -65,7 +65,20 @@ TOTAL-TEXT is a word-level based English curve text dataset. If you are insteres
            <td>-</td>
            <td>-</td>
            <td>CVPR2019</td>
-        </tr> 
+        </tr>
+        <tr>
+           <td>LOMO (LOMO MS) <a href="https://arxiv.org/abs/1904.06535">[paper]</a></td>
+           <td>88.6 (87.6)</td>
+           <td>75.7 (79.3)</td>
+           <td>81.6 (83.3)</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>CVPR2019</td>
+        </tr>
         <tr>
            <td>FTSN <a href="https://arxiv.org/abs/1709.03272">[paper]</a></td>
            <td><sup>*</sup>84.7</td>
@@ -80,7 +93,7 @@ TOTAL-TEXT is a word-level based English curve text dataset. If you are insteres
            <td>ICPR2018</td>
         </tr>  
         <tr>
-           <td>TSENet <a href="https://arxiv.org/abs/1903.12473">[paper]</a></td>
+           <td>PSENet-1s <a href="https://arxiv.org/abs/1903.12473">[paper]</a></td>
            <td>84.02</td>
            <td>77.96</td>
            <td>80.87</td>
