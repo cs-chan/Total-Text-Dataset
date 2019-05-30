@@ -1,4 +1,5 @@
 # Total-Text-Dataset
+Updated on May 30, 2019 (Important announcement on Total-Text vs. ArT dataset)
 
 Updated on April 02, 2019 (Updated table ranking with default vs. our proposed DetEval)
 
@@ -22,16 +23,14 @@ Released on October 27, 2017
 
 # News
 
-TOTAL-TEXT is a word-level based English curve text dataset. If you are interested in text-line based dataset with both English and Chinese instances, we highly recommend you to refer [SCUT-CTW1500](https://github.com/Yuliang-Liu/Curve-Text-Detector). In addition, a recent ICDAR2019 Robust Reading Challenge on Arbitrary-Shaped Text ([ArT](http://rrc.cvc.uab.es/?ch=14)), which is extended from Total-Text and SCUT-CTW1500, is held for stimulating more innovative ideas on the arbitrary-shaped text reading task. We welcome your participation, and the winner will walk away with substantial awards.
+TOTAL-TEXT is a word-level based English curve text dataset. If you are interested in text-line based dataset with both English and Chinese instances, we highly recommend you to refer [SCUT-CTW1500](https://github.com/Yuliang-Liu/Curve-Text-Detector). In addition, a Robust Reading Challenge on Arbitrary-Shaped Text ([ArT](http://rrc.cvc.uab.es/?ch=14)), which is extended from Total-Text and SCUT-CTW1500, was held at ICDAR2019 to stimulate more innovative ideas on the arbitrary-shaped text reading task. Congratulations to all winners and challengers.
 
-# Important Annoucement
-Total-Text and SCUT-CTW1500 are now part of the training set of the largest curved text dataset - ArT (Arbitrary-Shaped Text dataset). In order to retain the validity of future benchmarking on both mentioned datasets, we will soon provide a list of ID for users to remove the **test-set images** of Total-Text and SCUT-CTW1500 from the ArT dataset shall one intend to leverage the extra training data from the ArT dataset. We count on the trust of the research community to perform such removal operation to attain the fairness of the benchmarking.
-
-
+# Important Announcement
+Total-Text and SCUT-CTW1500 are now part of the training set of the largest curved text dataset - ArT (Arbitrary-Shaped Text dataset). In order to retain the validity of future benchmarking on Total-Text datasets, we will soon provide a list of ID for users to remove the **test-set images** of Total-Text from the ArT dataset shall one intend to leverage the extra training data from the ArT dataset. We count on the trust of the research community to perform such removal operation to attain the fairness of the benchmarking.
 
 ## Table Ranking
 
-- The results from recent papers on the Total-Text dataset are listed below where P=Precision, R=Recall & F=F-score.
+- The results from recent papers on Total-Text dataset are listed below where P=Precision, R=Recall & F=F-score.
 - If your result is missing or incorrect, please do not hesisate to contact us.
 - <sup>*</sup>Pascal VOC IoU metric; <a href="https://arxiv.org/abs/1712.02170"><sup>**</sup>Polygon Regression</a>
 
