@@ -292,6 +292,15 @@ In order to facilitate a new text detection research, we introduce Total-Text da
 ## Citation
 If you find this dataset useful for your research, please cite
 ```
+@article{CK2019,
+  author    = {Chee Kheng Ch’ng and
+               Chee Seng Chan and
+               Chenglin Liu},
+  title     = {Total-Text: Towards Orientation Robustness in Scene Text Detection},
+  journal   = {IJDAR},
+  year      = {2019},
+}
+
 @inproceedings{CK2017,
   author    = {Chee Kheng Ch’ng and
                Chee Seng Chan},
