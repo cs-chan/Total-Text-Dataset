@@ -68,7 +68,7 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>-</td>
            <td>-</td>
            <td>-</td>
-           <td>arXiv:1904.12640</td>
+           <td>arXiv:1904</td>
         </tr>
         <tr>
            <td>CRAFT <a href="https://arxiv.org/abs/1904.01941">[paper]</a></td>
@@ -186,7 +186,7 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>81.4</td>
            <td>72.5</td>
            <td>76.7</td>
-           <td>arXiv:1901.02596</td>
+           <td>arXiv:1901</td>
         </tr>
         <tr>
            <td>TextSnake <a href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Shangbang_Long_TextSnake_A_Flexible_ECCV_2018_paper.pdf">[paper]</a></td>
