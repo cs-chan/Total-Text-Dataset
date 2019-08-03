@@ -277,7 +277,6 @@ Note:
 ### End-to-end Recognition <br> (None refers to recognition without any lexicon; Full lexicon contains all words in test set.)
 | Method     |  None (%)  |  Full (%)  |   Published at    |
 |:--------:  | :-----:   | :----:      |    :-----:    |
-|CNN+CTC [[paper]](https://www.sciencedirect.com/science/article/pii/S0925231219301870)     | 77.5     |  -    |      Neurocomputing2019         |
 |TextNet [[paper]](https://arxiv.org/abs/1812.09900)     | 54.0     |  -    |      ACCV2018         |
 |Mask TextSpotter [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Pengyuan_Lyu_Mask_TextSpotter_An_ECCV_2018_paper.pdf)  | 52.9     |  71.8      |    ECCV2018          |
 |Textboxes [[paper]](https://arxiv.org/abs/1611.06779)        | 36.3     |  48.9       |         AAAI2017    |
