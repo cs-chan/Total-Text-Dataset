@@ -97,6 +97,19 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>CVPR2019</td>
         </tr>
         <tr>
+           <td>ICG <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320319302511">[paper]</a></td>
+           <td>82.1</td>
+           <td>80.9</td>
+           <td>81.5</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>PR2019</td>
+        </tr>
+        <tr>
            <td>FTSN <a href="https://arxiv.org/abs/1709.03272">[paper]</a></td>
            <td><sup>*</sup>84.7</td>
            <td><sup>*</sup>78.0</td>
@@ -108,7 +121,7 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>-</td>
            <td>-</td>
            <td>ICPR2018</td>
-        </tr>  
+        </tr> 
         <tr>
            <td>PSENet-1s <a href="https://arxiv.org/abs/1903.12473">[paper]</a></td>
            <td>84.02</td>
@@ -121,19 +134,6 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>-</td>
            <td>-</td>
            <td>CVPR2019</td>
-        </tr> 
-        <tr>
-           <td>ICG <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320319302511">[paper]</a></td>
-           <td>82.10</td>
-           <td>80.90</td>
-           <td>81.50</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>PR2019</td>
         </tr>
         <tr>
             <td><sup>1</sup>TextField <a href="https://arxiv.org/abs/1812.01393">[paper]</a></td>
@@ -162,20 +162,6 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>CVPR2019</td>
         </tr>
         <tr>
-           <td>ATTR <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Arbitrary_Shape_Scene_Text_Detection_With_Adaptive_Text_Region_Representation_CVPR_2019_paper.pdf">[paper]</a></td>
-           <td>80.9</td>
-           <td>76.2</td>
-           <td>78.5</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>CVPR2019</td>
-        </tr>
-        <tr>
-        <tr>
            <td>MSR <a href="https://arxiv.org/abs/1901.02596">[paper]</a></td>
            <td>85.2</td>
            <td>73.0</td>
@@ -187,6 +173,19 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>72.5</td>
            <td>76.7</td>
            <td>arXiv:1901</td>
+        </tr>
+        <tr>
+           <td>ATTR <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Arbitrary_Shape_Scene_Text_Detection_With_Adaptive_Text_Region_Representation_CVPR_2019_paper.pdf">[paper]</a></td>
+           <td>80.9</td>
+           <td>76.2</td>
+           <td>78.5</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>CVPR2019</td>
         </tr>
         <tr>
            <td>TextSnake <a href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Shangbang_Long_TextSnake_A_Flexible_ECCV_2018_paper.pdf">[paper]</a></td>
