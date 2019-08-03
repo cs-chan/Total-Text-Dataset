@@ -133,7 +133,7 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>-</td>
            <td>-</td>
            <td>-</td>
-           <td>CVPR2019</td>
+           <td>PR2019</td>
         </tr>
         <tr>
             <td><sup>1</sup>TextField <a href="https://arxiv.org/abs/1812.01393">[paper]</a></td>
