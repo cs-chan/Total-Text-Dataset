@@ -136,6 +136,20 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>CVPR2019</td>
         </tr>
         <tr>
+           <td>ATTR <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Arbitrary_Shape_Scene_Text_Detection_With_Adaptive_Text_Region_Representation_CVPR_2019_paper.pdf">[paper]</a></td>
+           <td>80.9</td>
+           <td>76.2</td>
+           <td>78.5</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>CVPR2019</td>
+        </tr>
+        <tr>
+        <tr>
            <td>MSR <a href="https://arxiv.org/abs/1901.02596">[paper]</a></td>
            <td>85.2</td>
            <td>73.0</td>
