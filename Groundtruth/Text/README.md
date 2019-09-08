@@ -10,7 +10,7 @@ More information can be found in our IJDAR journal (as refered to in the main pa
 The groundtruth of the Total-Text dataset can be downloaded through the following links. 
 
 Latest refined version:
- - at [this https URL] ()
+ - at [this https URL] (https://drive.google.com/file/d/1-XrQBoU9as1PXaB_0dUrDTJgvGFFOnDE/view?usp=sharing)
 
 Legacy version:
 - at [this https URL](https://drive.google.com/file/d/1v-pd-74EkZ3dWe6k0qppRtetjdPQ3ms1/view?usp=sharing) for text file format('.txt').
