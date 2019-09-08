@@ -1,10 +1,21 @@
 ## Description
 
-The groundtruth of the Total-Text dataset can be downloaded through the following links. Two formats are made available:
+Updates:
+New training ground truths of Total-Text is now available, they are refined with the following attributes:
+1) Polygon bounding region with fixed number of vertex (10 vertex),
+2) The first point of the polygon bounding region is annotated according to the reading sequence of the text (i.e., top left corner of the annotated text).
 
-a) at [this https URL](https://drive.google.com/file/d/1v-pd-74EkZ3dWe6k0qppRtetjdPQ3ms1/view?usp=sharing) for text file format('.txt').
+More information can be found in our IJDAR journal (as refered to in the main page). 
 
-b) at [this https URL](https://drive.google.com/file/d/19quCaJGePvTc3yPZ7MAGNijjKfy77-ke/view?usp=sharing) for Matlab format ('.mat'). Can be load with Matlab, scipy.io.loadmat, etc..
+The groundtruth of the Total-Text dataset can be downloaded through the following links. 
+
+Latest refined version:
+ - at [this https URL] ()
+
+Legacy version:
+- at [this https URL](https://drive.google.com/file/d/1v-pd-74EkZ3dWe6k0qppRtetjdPQ3ms1/view?usp=sharing) for text file format('.txt').
+
+- at [this https URL](https://drive.google.com/file/d/19quCaJGePvTc3yPZ7MAGNijjKfy77-ke/view?usp=sharing) for Matlab format ('.mat'). Can be load with Matlab, scipy.io.loadmat, etc..
 
 
 <img src="sample.png" width="100%">
