@@ -5,6 +5,8 @@ Updated on Sept. 07, 2019 - (Added [Guided Annotation toolbox](https://github.co
 
 Updated on Sept. 07, 2019 (Updated [baseline](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Baseline) as to our IJDAR2019)
 
+Updated on August 01, 2019 (Extended version with new baseline + annotation tool is accepted at [IJDAR](https://link.springer.com/article/10.1007/s10032-019-00334-z))
+
 Updated on May 30, 2019 (Important announcement on Total-Text vs. ArT dataset)
 
 Updated on April 02, 2019 (Updated table ranking with default vs. our proposed DetEval)
@@ -328,7 +330,7 @@ Note:
 
 ## Description
 
-In order to facilitate a new text detection research, we introduce Total-Text dataset [(ICDAR-17 paper)](https://arxiv.org/abs/1710.10400) [(presentation slides)](http://cs-chan.com/doc/TT_Slide.pdf), which is more comprehensive than the existing text datasets. The Total-Text consists of 1555 images with more than 3 different text orientations: Horizontal, Multi-Oriented, and Curved, one of a kind.
+In order to facilitate a new text detection research, we introduce Total-Text dataset [(IJDAR)](https://link.springer.com/article/10.1007/s10032-019-00334-z)[(ICDAR-17 paper)](https://arxiv.org/abs/1710.10400) [(presentation slides)](http://cs-chan.com/doc/TT_Slide.pdf), which is more comprehensive than the existing text datasets. The Total-Text consists of 1555 images with more than 3 different text orientations: Horizontal, Multi-Oriented, and Curved, one of a kind.
 
 <img src="ttstatistics.png" width="100%">
 <img src="ICDAR17.gif" width="50%">
@@ -343,6 +345,7 @@ If you find this dataset useful for your research, please cite
   title     = {Total-Text: Towards Orientation Robustness in Scene Text Detection},
   journal   = {IJDAR},
   year      = {2019},
+  doi       = {10.1007/s10032-019-00334-z},
 }
 
 @inproceedings{CK2017,
