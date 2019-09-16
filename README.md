@@ -1,5 +1,7 @@
 # Total-Text-Dataset
-Updated on Sept. 08, 2019 (New training [groundtruths](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Groundtruth/Text) of Total-Text is now available)
+Updated on Sept. 08, 2019 (New [training groundtruths](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Groundtruth/Text) of Total-Text is now available)
+
+Updated on Sept. 07, 2019 - (Added [Guided Annotation toolbox](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Annotation_tools) for scene text image annotation)
 
 Updated on Sept. 07, 2019 (Updated [baseline](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Baseline) as to our IJDAR2019)
 
