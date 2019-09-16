@@ -1,7 +1,7 @@
 # Total-Text-Dataset
 Updated on Sept. 08, 2019 (New [training groundtruths](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Groundtruth/Text) of Total-Text is now available)
 
-Updated on Sept. 07, 2019 - (Added [Guided Annotation toolbox](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Annotation_tools) for scene text image annotation)
+Updated on Sept. 07, 2019 - (Updated [Guided Annotation toolbox](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Annotation_tools) for scene text image annotation)
 
 Updated on Sept. 07, 2019 (Updated [baseline](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Baseline) as to our IJDAR)
 
@@ -17,7 +17,7 @@ Updated on March 14, 2019 (Updated table ranking with evaluation protocol info.)
 
 Updated on November 26, 2018 (Table ranking is included for reference.)
 
-Updated on August 24, 2018 (Newly added [annotation tool](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Annotation_tools) folder.)
+Updated on August 24, 2018 (Newly added [Guided Annotation toolbox](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Annotation_tools) folder.)
 
 Updated on May 15, 2018 (Added groundtruth in '.txt' format.)
 
@@ -209,7 +209,7 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>ECCV2018</td>
         </tr>
         <tr>
-           <td><sup>3</sup>New Baseline <a    href="https://link.springer.com/article/10.1007/s10032-019-00334-z">[paper]</a></td>
+           <td><sup>3</sup>Baseline <a    href="https://link.springer.com/article/10.1007/s10032-019-00334-z">[paper]</a></td>
            <td>78.0</td>
            <td>68.0</td>
            <td>73.0</td>
