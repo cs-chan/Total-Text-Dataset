@@ -1,4 +1,6 @@
 # Total-Text-Dataset
+Updated on Sept. 08, 2019 (New training [groundtruths](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Groundtruth/Text) of Total-Text is now available)
+
 Updated on May 30, 2019 (Important announcement on Total-Text vs. ArT dataset)
 
 Updated on April 02, 2019 (Updated table ranking with default vs. our proposed DetEval)
