@@ -5,7 +5,7 @@ New training ground truths of Total-Text is now available, they are refined with
 1) Polygon bounding region with fixed number of vertex (10 vertex),
 2) The first point of the polygon bounding region is annotated according to the reading sequence of the text (i.e., top left corner of the annotated text).
 
-More information can be found in our IJDAR journal (as refered to in the main page). 
+More information can be found in our [IJDAR journal](https://link.springer.com/article/10.1007/s10032-019-00334-z) (as refered to in the main page). 
 
 The groundtruth of the Total-Text dataset can be downloaded through the following links. 
 
