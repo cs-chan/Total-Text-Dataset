@@ -3,7 +3,7 @@ Updated on Sept. 08, 2019 (New [training groundtruths](https://github.com/cs-cha
 
 Updated on Sept. 07, 2019 - (Added [Guided Annotation toolbox](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Annotation_tools) for scene text image annotation)
 
-Updated on Sept. 07, 2019 (Updated [baseline](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Baseline) as to our IJDAR2019)
+Updated on Sept. 07, 2019 (Updated [baseline](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Baseline) as to our IJDAR)
 
 Updated on August 01, 2019 (Extended version with new baseline + annotation tool is accepted at [IJDAR](https://link.springer.com/article/10.1007/s10032-019-00334-z))
 
@@ -31,10 +31,10 @@ Released on October 27, 2017
 
 # News
 
-TOTAL-TEXT is a word-level based English curve text dataset. If you are interested in text-line based dataset with both English and Chinese instances, we highly recommend you to refer [SCUT-CTW1500](https://github.com/Yuliang-Liu/Curve-Text-Detector). In addition, a Robust Reading Challenge on Arbitrary-Shaped Text ([ArT](http://rrc.cvc.uab.es/?ch=14)), which is extended from Total-Text and SCUT-CTW1500, was held at ICDAR2019 to stimulate more innovative ideas on the arbitrary-shaped text reading task. Congratulations to all winners and challengers.
+TOTAL-TEXT is a word-level based English curve text dataset. If you are interested in text-line based dataset with both English and Chinese instances, we highly recommend you to refer [SCUT-CTW1500](https://github.com/Yuliang-Liu/Curve-Text-Detector). In addition, a Robust Reading Challenge on Arbitrary-Shaped Text ([RRC-ArT](http://rrc.cvc.uab.es/?ch=14)), which is extended from Total-Text and SCUT-CTW1500, was held at ICDAR2019 to stimulate more innovative ideas on the arbitrary-shaped text reading task. Congratulations to all winners and challengers.
 
 # Important Announcement
-Total-Text and SCUT-CTW1500 are now part of the training set of the largest curved text dataset - ArT (Arbitrary-Shaped Text dataset). In order to retain the validity of future benchmarking on Total-Text datasets, the **test-set images** of Total-Text should be removed (with the corresponding ID provided here (https://github.com/cs-chan/Total-Text-Dataset/blob/master/Total_Text_ID_vs_ArT_ID.list)) from the ArT dataset shall one intend to leverage the extra training data from the ArT dataset. We count on the trust of the research community to perform such removal operation to attain the fairness of the benchmarking.
+Total-Text and SCUT-CTW1500 are now part of the training set of the largest curved text dataset - [ArT (Arbitrary-Shaped Text dataset)](http://rrc.cvc.uab.es/?ch=14). In order to retain the validity of future benchmarking on Total-Text datasets, the **test-set images** of Total-Text should be removed (with the corresponding ID provided here (https://github.com/cs-chan/Total-Text-Dataset/blob/master/Total_Text_ID_vs_ArT_ID.list)) from the ArT dataset shall one intend to leverage the extra training data from the ArT dataset. We count on the trust of the research community to perform such removal operation to attain the fairness of the benchmarking.
 
 ## Table Ranking
 
@@ -209,6 +209,19 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>ECCV2018</td>
         </tr>
         <tr>
+           <td><sup>3</sup>New Baseline <a    href="https://link.springer.com/article/10.1007/s10032-019-00334-z">[paper]</a></td>
+           <td>78.0</td>
+           <td>68.0</td>
+           <td>73.0</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>78.0</td>
+           <td>68.0</td>
+           <td>73.0</td>
+           <td>IJDAR2019</td>
+        </tr>
+        <tr>
            <td><sup>1</sup>CTD <a href="https://www.sciencedirect.com/science/article/pii/S0031320319300664">[paper]</a></td>
            <td>74.0</td>
            <td>71.0</td>
@@ -287,19 +300,6 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>CVPR2017</td>
         </tr>
         <tr>
-           <td>Baseline <a href="http://cs-chan.com/doc/ICDAR17.pdf">[paper]</a></td>
-           <td>33.0</td>
-           <td>40.0</td>
-           <td>36.0</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>ICDAR2017</td>
-        </tr>
-        <tr>
            <td>SegLink <a href="https://arxiv.org/abs/1703.06520">[paper]</a></td>
            <td>30.3</td>
            <td>23.8</td>
@@ -320,6 +320,8 @@ Note:
 <sup>1</sup>For the results of TextField and CTD, the improved versions of their original paper were used, and this explains why the performance is better.
 
 <sup>2</sup>For Mask-TextSpotter, the relatively poor performance reported in their paper was due to a bug in the input reading module (which was fixed recently). The authors were informed about this issue.
+
+<sup>3</sup>The new baseline scores are based on Poly-FRCNN-3 in [this folder](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Baseline).
 
 ### End-to-end Recognition <br> (None refers to recognition without any lexicon; Full lexicon contains all words in test set.)
 | Method     |  None (%)  |  Full (%)  |   Published at    |
