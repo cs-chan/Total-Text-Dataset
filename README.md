@@ -209,7 +209,7 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>ECCV2018</td>
         </tr>
         <tr>
-           <td><sup>3</sup>Baseline <a    href="https://link.springer.com/article/10.1007/s10032-019-00334-z">[paper]</a></td>
+           <td><sup>3</sup>Baseline <a href="http://cs-chan.com/doc/IJDAR2019.pdf">[paper]</a></td>
            <td>78.0</td>
            <td>68.0</td>
            <td>73.0</td>
@@ -332,7 +332,7 @@ Note:
 
 ## Description
 
-In order to facilitate a new text detection research, we introduce Total-Text dataset [(IJDAR)](https://link.springer.com/article/10.1007/s10032-019-00334-z)[(ICDAR-17 paper)](https://arxiv.org/abs/1710.10400) [(presentation slides)](http://cs-chan.com/doc/TT_Slide.pdf), which is more comprehensive than the existing text datasets. The Total-Text consists of 1555 images with more than 3 different text orientations: Horizontal, Multi-Oriented, and Curved, one of a kind.
+In order to facilitate a new text detection research, we introduce Total-Text dataset [(IJDAR)](http://cs-chan.com/doc/IJDAR2019.pdf)[(ICDAR-17 paper)](https://arxiv.org/abs/1710.10400) [(presentation slides)](http://cs-chan.com/doc/TT_Slide.pdf), which is more comprehensive than the existing text datasets. The Total-Text consists of 1555 images with more than 3 different text orientations: Horizontal, Multi-Oriented, and Curved, one of a kind.
 
 <img src="ttstatistics.png" width="100%">
 <img src="ICDAR17.gif" width="50%">
