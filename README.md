@@ -66,6 +66,32 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
     </thead>
     <tbody align="center">
         <tr>
+           <td><sup>3</sup>Baseline <a href="http://cs-chan.com/doc/IJDAR2019.pdf">[paper]</a></td>
+           <td>78.0</td>
+           <td>68.0</td>
+           <td>73.0</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>78.0</td>
+           <td>68.0</td>
+           <td>73.0</td>
+           <td>IJDAR2019</td>
+        </tr>
+        <tr>
+           <td>CharNet H-88 MS <a href="https://arxiv.org/abs/1910.07954">[paper]</a></td>
+           <td>88.0</td>
+           <td>85.0</td>
+           <td>86.5</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>ICCV2019</td>
+        </tr>
+        <tr>
            <td>TextCohesion <a href="https://arxiv.org/abs/1904.12640">[paper]</a></td>
            <td>88.1</td>
            <td>81.4</td>
@@ -209,19 +235,6 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>ECCV2018</td>
         </tr>
         <tr>
-           <td><sup>3</sup>Baseline <a href="http://cs-chan.com/doc/IJDAR2019.pdf">[paper]</a></td>
-           <td>78.0</td>
-           <td>68.0</td>
-           <td>73.0</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>78.0</td>
-           <td>68.0</td>
-           <td>73.0</td>
-           <td>IJDAR2019</td>
-        </tr>
-        <tr>
            <td><sup>1</sup>CTD <a href="https://www.sciencedirect.com/science/article/pii/S0031320319300664">[paper]</a></td>
            <td>74.0</td>
            <td>71.0</td>
@@ -326,9 +339,13 @@ Note:
 ### End-to-end Recognition <br> (None refers to recognition without any lexicon; Full lexicon contains all words in test set.)
 | Method     |  None (%)  |  Full (%)  |   Published at    |
 |:--------:  | :-----:   | :----:      |    :-----:    |
+|CharNet H-88 MS [[paper]](https://arxiv.org/abs/1910.07954) | 69.2  |  -     |         ICCV2019 |
 |TextNet [[paper]](https://arxiv.org/abs/1812.09900)     | 54.0     |  -    |      ACCV2018         |
 |Mask TextSpotter [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Pengyuan_Lyu_Mask_TextSpotter_An_ECCV_2018_paper.pdf)  | 52.9     |  71.8      |    ECCV2018          |
 |Textboxes [[paper]](https://arxiv.org/abs/1611.06779)        | 36.3     |  48.9       |         AAAI2017    |
+
+
+
 
 ## Description
 
