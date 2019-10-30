@@ -1,4 +1,4 @@
-# Total-Text-Dataset （Official site)
+# Total-Text-Dataset (Official site)
 
 Updated on Sept. 08, 2019 (New [training groundtruths](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Groundtruth/Text) of Total-Text is now available)
 
