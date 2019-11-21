@@ -93,6 +93,19 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>ICCV2019</td>
         </tr>
         <tr>
+           <td>DB-ResNet50 (800) <a href="https://arxiv.org/abs/1911.08947">[paper]</a></td>
+           <td>87.1</td>
+           <td>82.5</td>
+           <td>84.7</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>AAAI2020</td>
+        </tr>
+        <tr>
            <td>TextCohesion <a href="https://arxiv.org/abs/1904.12640">[paper]</a></td>
            <td>88.1</td>
            <td>81.4</td>
