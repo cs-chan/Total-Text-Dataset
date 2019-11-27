@@ -80,6 +80,19 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>IJDAR2019</td>
         </tr>
         <tr>
+           <td>Boundary (E2E) <a href="https://arxiv.org/abs/1911.09550">[paper]</a></td>
+           <td>88.9</td>
+           <td>85.0</td>
+           <td>87.0</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>AAAI2020</td>
+        </tr>
+        <tr>
            <td>CharNet H-88 MS <a href="https://arxiv.org/abs/1910.07954">[paper]</a></td>
            <td>88.0</td>
            <td>85.0</td>
@@ -354,6 +367,7 @@ Note:
 | Method     |  None (%)  |  Full (%)  |   Published at    |
 |:--------:  | :-----:   | :----:      |    :-----:    |
 |CharNet H-88 MS [[paper]](https://arxiv.org/abs/1910.07954) | 69.2  |  -     |         ICCV2019 |
+|Boundary (E2E) [[paper]](https://arxiv.org/abs/1911.09550) | 65.0  |  76.1     |         AAAI2020 |
 |TextNet [[paper]](https://arxiv.org/abs/1812.09900)     | 54.0     |  -    |      ACCV2018         |
 |Mask TextSpotter [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Pengyuan_Lyu_Mask_TextSpotter_An_ECCV_2018_paper.pdf)  | 52.9     |  71.8      |    ECCV2018          |
 |Textboxes [[paper]](https://arxiv.org/abs/1611.06779)        | 36.3     |  48.9       |         AAAI2017    |
