@@ -436,6 +436,7 @@ Note:
 |Qin et al. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Qin_Towards_Unconstrained_End-to-End_Text_Spotting_ICCV_2019_paper.pdf) | ResNet50-MSF  | 67.8  |  -     |    -     |     ICCV2019 |
 |Boundary (E2E) [[paper]](https://arxiv.org/abs/1911.09550) | ResNet50-FPN  | 65.0  |  76.1     |    -     |     AAAI2020 |
 |ABCNet [[paper]](https://arxiv.org/abs/2002.10200) | ResNet50-FPN  | 64.2  |  75.7     |       17.9     |  CVPR2020 |
+|CAPNet [[paper]](https://arxiv.org/abs/2002.03509) | ResNet50-FPN  | 62.7  |  -     |       -    |  ICASSP2020 |
 |TextNet [[paper]](https://arxiv.org/abs/1812.09900)     | ResNet50-SAM  | 54.0     |  -    |    2.7     |  ACCV2018         |
 |Mask TextSpotter [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Pengyuan_Lyu_Mask_TextSpotter_An_ECCV_2018_paper.pdf)  | ResNet50-FPN  | 52.9     |  71.8      |   4.8     | ECCV2018          |
 |TextDragon [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/html/Feng_TextDragon_An_End-to-End_Framework_for_Arbitrary_Shaped_Text_Spotting_ICCV_2019_paper.html)        | VGG16  | 48.8     |  74.8       |      -     |  ICCV2019    |
