@@ -43,7 +43,7 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
 - If your result is missing or incorrect, please do not hesisate to contact us.
 - <sup>*</sup>Pascal VOC IoU metric; <a href="https://arxiv.org/abs/1712.02170"><sup>**</sup>Polygon Regression</a>
 
-### Detection
+### Detection Leaderboard
 <table>
     <thead align="center">
        <tr>
@@ -119,6 +119,19 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>ICCV2019</td>
         </tr>
         <tr>
+           <td>Text Perceptron (E2E) <a href="https://arxiv.org/abs/2002.06820">[paper]</a></td>
+           <td>88.8</td>
+           <td>81.8</td>
+           <td>85.2</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>AAAI2020</td>
+        </tr>
+        <tr>
            <td>DB-ResNet50 (800) <a href="https://arxiv.org/abs/1911.08947">[paper]</a></td>
            <td>87.1</td>
            <td>82.5</td>
@@ -170,7 +183,7 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>-</td>
            <td>CVPR2019</td>
         </tr>
-                   <td>Qin et al. (Res-50) <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Qin_Towards_Unconstrained_End-to-End_Text_Spotting_ICCV_2019_paper.pdf">[paper]</a></td>
+                   <td>Qin et al. (ResNet50) <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Qin_Towards_Unconstrained_End-to-End_Text_Spotting_ICCV_2019_paper.pdf">[paper]</a></td>
            <td>83.3</td>
            <td>83.4</td>
            <td>83.3</td>
@@ -181,6 +194,19 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>-</td>
            <td>-</td>
            <td>ICCV2019</td>
+        </tr>
+        <tr>
+           <td>SPCNet <a href="https://arxiv.org/abs/1811.08605">[paper]</a></td>
+           <td>83.0</td>
+           <td>82.8</td>
+           <td>82.9</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>AAAI2019</td>
         </tr>
         <tr>
            <td>ICG <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320319302511">[paper]</a></td>
@@ -401,9 +427,10 @@ Note:
 
 <sup>3</sup>The new baseline scores are based on Poly-FRCNN-3 in [this folder](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Baseline).
 
-### End-to-end Recognition in F-measure <br> (None refers to recognition without any lexicon; Full lexicon contains all words in test set.)
+### End-to-end Recognition Leaderboard <br> (None refers to recognition without any lexicon; Full lexicon contains all words in test set.)
 | Method     | Backbone  | None (%)  |  Full (%)  |  FPS          |   Published at    |
 |:--------:  | :-----:   | :-----:   |  :----:    |    :-----:    |        :-----:    |
+|Text Perceptron [[paper]](https://arxiv.org/abs/2002.06820)     | ResNet50-FPN  | 69.7     |  78.3    |    -     |  AAAI2020         |
 |ABCNet-MS [[paper]](https://arxiv.org/abs/2002.10200) | ResNet50-FPN  | 69.5  |  78.4     |     6.9     |    CVPR2020 |
 |CharNet H-88 MS [[paper]](https://arxiv.org/abs/1910.07954) | ResNet50-Hourglass57  | 69.2  |  -     |     1.2     |    ICCV2019 |
 |Qin et al. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Qin_Towards_Unconstrained_End-to-End_Text_Spotting_ICCV_2019_paper.pdf) | ResNet50-MSF  | 67.8  |  -     |    -     |     ICCV2019 |
