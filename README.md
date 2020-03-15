@@ -65,19 +65,20 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
             <th>F</th>
         </tr>
     </thead>
+    <tr></tr>
     <tbody align="center">
         <tr>
-           <td><sup>3</sup>Baseline <a href="http://cs-chan.com/doc/IJDAR2019.pdf">[paper]</a></td>
-           <td>78.0</td>
-           <td>68.0</td>
-           <td>73.0</td>
+            <td><sup>3</sup><b>Baseline</b> <a href="http://cs-chan.com/doc/IJDAR2019.pdf">[paper]</a></td>
+           <td><b>78.0</b></td>
+           <td><b>68.0</b></td>
+           <td><b>73.0</b></td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
-           <td>78.0</td>
-           <td>68.0</td>
-           <td>73.0</td>
-           <td>IJDAR2019</td>
+           <td><b>78.0</b></td>
+           <td><b>68.0</b></td>
+           <td><b>73.0</b></td>
+           <td><b>IJDAR2020</b></td>
         </tr>
         <tr>
            <td>Boundary (E2E) <a href="https://arxiv.org/abs/1911.09550">[paper]</a></td>
