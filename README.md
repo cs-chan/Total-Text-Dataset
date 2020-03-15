@@ -459,19 +459,11 @@ If you find this dataset useful for your research, please cite
                Chee Seng Chan and
                Chenglin Liu},
   title     = {Total-Text: Towards Orientation Robustness in Scene Text Detection},
-  journal   = {IJDAR},
-  year      = {2019},
+  journal   = {International Journal on Document Analysis and Recognition (IJDAR)},
+  volume    = {23},
+  pages     = {31-52},
+  year      = {2020},
   doi       = {10.1007/s10032-019-00334-z},
-}
-
-@inproceedings{CK2017,
-  author    = {Chee Kheng Ch’ng and
-               Chee Seng Chan},
-  title     = {Total-Text: A Comprehensive Dataset for Scene Text Detection and Recognition},
-  booktitle = {14th IAPR International Conference on Document Analysis and Recognition {ICDAR}},
-  pages     = {935--942},
-  year      = {2017},
-  doi       = {10.1109/ICDAR.2017.157},
 }
 ```
 
