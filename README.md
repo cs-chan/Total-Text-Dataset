@@ -31,8 +31,14 @@ Updated on November 04, 2017 (Added text level groundtruth)
 Released on October 27, 2017
 
 # News
+- We received some questions regarding the new ground truth for the test set of Total-Text. Here is an update. We do not           release a new version of the test set ground truth because 
 
-TOTAL-TEXT is a word-level based English curve text dataset. If you are interested in text-line based dataset with both English and Chinese instances, we highly recommend you to refer [SCUT-CTW1500](https://github.com/Yuliang-Liu/Curve-Text-Detector). In addition, a Robust Reading Challenge on Arbitrary-Shaped Text ([RRC-ArT](http://rrc.cvc.uab.es/?ch=14)), which is extended from Total-Text and SCUT-CTW1500, was held at ICDAR2019 to stimulate more innovative ideas on the arbitrary-shaped text reading task. Congratulations to all winners and challengers. The technical report of ArT can be found on at [this https URL](https://arxiv.org/abs/1909.07145).
+1) there is no need of standardising the length of the ground truth vertices for testing purpose, it was proposed to facilitate training only,
+2) a new version of ground truth would make the previous benchmarks irrelevant.
+
+Do contact us if you think there is a proper reason to have the new ground truth for the test set, we shall discuss about it.
+
+- TOTAL-TEXT is a word-level based English curve text dataset. If you are interested in text-line based dataset with both English and Chinese instances, we highly recommend you to refer [SCUT-CTW1500](https://github.com/Yuliang-Liu/Curve-Text-Detector). In addition, a Robust Reading Challenge on Arbitrary-Shaped Text ([RRC-ArT](http://rrc.cvc.uab.es/?ch=14)), which is extended from Total-Text and SCUT-CTW1500, was held at ICDAR2019 to stimulate more innovative ideas on the arbitrary-shaped text reading task. Congratulations to all winners and challengers. The technical report of ArT can be found on at [this https URL](https://arxiv.org/abs/1909.07145).
 
 # Important Announcement
 Total-Text and SCUT-CTW1500 are now part of the training set of the largest curved text dataset - [ArT (Arbitrary-Shaped Text dataset)](http://rrc.cvc.uab.es/?ch=14). In order to retain the validity of future benchmarking on Total-Text datasets, the **test-set images** of Total-Text should be removed (with the corresponding ID provided [HERE](https://github.com/cs-chan/Total-Text-Dataset/blob/master/Total_Text_ID_vs_ArT_ID.list)) from the ArT dataset shall one intend to leverage the extra training data from the ArT dataset. We count on the trust of the research community to perform such removal operation to attain the fairness of the benchmarking.
