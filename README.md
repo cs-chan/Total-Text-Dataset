@@ -33,8 +33,8 @@ Released on October 27, 2017
 # News
 - We received some questions regarding the new ground truth for the test set of Total-Text. Here is an update. We do not           release a new version of the test set ground truth because 
 
-1) there is no need of standardising the length of the ground truth vertices for testing purpose, it was proposed to facilitate training only,
-2) a new version of ground truth would make the previous benchmarks irrelevant.
+       1) there is no need of standardising the length of the ground truth vertices for testing purpose, it was proposed to facilitate training only,
+       2) a new version of ground truth would make the previous benchmarks irrelevant.
 
 Do contact us if you think there is a proper reason to have the new ground truth for the test set, we shall discuss about it.
 
