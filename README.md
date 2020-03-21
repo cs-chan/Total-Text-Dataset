@@ -164,6 +164,19 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>-</td>
            <td>arXiv:1904</td>
         </tr>
+           <tr>
+           <td>ReLaText <a href="https://arxiv.org/abs/2003.06999">[paper]</a></td>
+           <td>84.8</td>
+           <td>83.1</td>
+           <td>84.0</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>arXiv:2003</td>
+        </tr>
         <tr>
            <td>CRAFT <a href="https://arxiv.org/abs/1904.01941">[paper]</a></td>
            <td>87.6</td>
