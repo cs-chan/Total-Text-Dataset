@@ -495,6 +495,8 @@ Suggestions and opinions of this dataset (both positive and negative) are greatl
 ## License and Copyright
 The project is open source under BSD-3 license (see the ``` LICENSE ``` file). Codes can be used freely only for academic purpose.
 
+For commercial purpose usage, please contact Dr. Chee Seng Chan at `cs.chan at um.edu.my`
+
 &#169;2017-2020 Center of Image and Signal Processing, Faculty of Computer Science and Information Technology, University of Malaya.
 
 
