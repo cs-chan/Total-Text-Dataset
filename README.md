@@ -1,8 +1,9 @@
 # Total-Text-Dataset (Official site)
+Updated on March 19, 2020 (Query on the new groundtruth of test set)
 
 Updated on Sept. 08, 2019 (New [training groundtruths](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Groundtruth/Text) of Total-Text is now available)
 
-Updated on Sept. 07, 2019 - (Updated [Guided Annotation toolbox](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Annotation_tools) for scene text image annotation)
+Updated on Sept. 07, 2019 (Updated [Guided Annotation toolbox](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Annotation_tools) for scene text image annotation)
 
 Updated on Sept. 07, 2019 (Updated [baseline](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Baseline) as to our IJDAR)
 
@@ -31,12 +32,12 @@ Updated on November 04, 2017 (Added text level groundtruth)
 Released on October 27, 2017
 
 # News
-- We received some questions regarding the new ground truth for the test set of Total-Text. Here is an update. We do not           release a new version of the test set ground truth because 
+- We received some questions in regard to the new groundtruth for the test set of Total-Text. Here is an update. We do not           release a new version of the test set groundtruth because 
 
-       1) there is no need of standardising the length of the ground truth vertices for testing purpose, it was proposed to facilitate training only,
-       2) a new version of ground truth would make the previous benchmarks irrelevant.
+       1) there is no need of standardising the length of the groundtruth vertices for testing purpose, it was proposed to facilitate training only, and
+       2) a new version of groundtruth would make the previous benchmarks irrelevant.
 
-Do contact us if you think there is a proper reason to have the new ground truth for the test set, we shall discuss about it.
+Do contact us if you think there is a valid reason to require the new groundtruth for the test set, we shall discuss about it.
 
 - TOTAL-TEXT is a word-level based English curve text dataset. If you are interested in text-line based dataset with both English and Chinese instances, we highly recommend you to refer [SCUT-CTW1500](https://github.com/Yuliang-Liu/Curve-Text-Detector). In addition, a Robust Reading Challenge on Arbitrary-Shaped Text ([RRC-ArT](http://rrc.cvc.uab.es/?ch=14)), which is extended from Total-Text and SCUT-CTW1500, was held at ICDAR2019 to stimulate more innovative ideas on the arbitrary-shaped text reading task. Congratulations to all winners and challengers. The technical report of ArT can be found on at [this https URL](https://arxiv.org/abs/1909.07145).
 
