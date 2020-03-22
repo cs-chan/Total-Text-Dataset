@@ -1,7 +1,7 @@
 ## Description
 
 Updates:
-New training ground truths of Total-Text is now available, they are refined with the following attributes:
+New training groundtruth of Total-Text is now available, they are refined with the following attributes:
 1) Polygon bounding region with fixed number of vertex (10 vertex),
 2) The first point of the polygon bounding region is annotated according to the reading sequence of the text (i.e., top left corner of the annotated text).
 
