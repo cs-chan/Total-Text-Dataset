@@ -5,7 +5,14 @@ New training groundtruth of Total-Text is now available, they are refined with t
 1) Polygon bounding region with fixed number of vertex (10 vertex),
 2) The first point of the polygon bounding region is annotated according to the reading sequence of the text (i.e., top left corner of the annotated text).
 
-More information can be found in our [IJDAR journal](https://link.springer.com/article/10.1007/s10032-019-00334-z) (as refered to in the main page). 
+However, therer is no need for a new version of the test set groundtruth because 
+
+       1) there is no need of standardising the length of the groundtruth vertices for testing purpose, it was proposed to facilitate training only, and
+       2) a new version of groundtruth would make the previous benchmarks irrelevant.
+
+Do contact us if you think there is a valid reason to require the new groundtruth for the test set, we shall discuss about it.
+
+More information can be found in our [IJDAR journal](http://web.fsktm.um.edu.my/~cschan/doc/IJDAR2019.pdf) (as refered to in the main page). 
 
 The groundtruth of the Total-Text dataset can be downloaded through the following links. 
 
