@@ -1,7 +1,7 @@
 # Total-Text-Dataset (Official site)
 Updated on March 19, 2020 (Query on the new groundtruth of test set)
 
-Updated on Sept. 08, 2019 (New [training groundtruths](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Groundtruth/Text) of Total-Text is now available)
+Updated on Sept. 08, 2019 (New [training groundtruth](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Groundtruth/Text) of Total-Text is now available)
 
 Updated on Sept. 07, 2019 (Updated [Guided Annotation toolbox](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Annotation_tools) for scene text image annotation)
 
