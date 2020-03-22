@@ -48,6 +48,7 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
 
 - The results from recent papers on Total-Text dataset are listed below where P=Precision, R=Recall & F=F-score.
 - If your result is missing or incorrect, please do not hesisate to contact us.
+- The baseline scores are based on our proposed <a href="http://cs-chan.com/doc/IJDAR2019.pdf">[Poly-FRCNN-3] in [this folder](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Baseline).
 - <sup>*</sup>Pascal VOC IoU metric; <a href="https://arxiv.org/abs/1712.02170"><sup>**</sup>Polygon Regression</a>
 
 ### Detection Leaderboard
@@ -75,7 +76,7 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
     <tr></tr>
     <tbody align="center">
         <tr>
-            <td><sup>3</sup><b>Baseline</b> <a href="http://cs-chan.com/doc/IJDAR2019.pdf">[paper]</a></td>
+            <td><b>Baseline</b></td>
            <td><b>78.0</b></td>
            <td><b>68.0</b></td>
            <td><b>73.0</b></td>
@@ -445,8 +446,6 @@ Note:
 <sup>1</sup>For the results of TextField and CTD, the improved versions of their original paper were used, and this explains why the performance is better.
 
 <sup>2</sup>For Mask-TextSpotter, the relatively poor performance reported in their paper was due to a bug in the input reading module (which was fixed recently). The authors were informed about this issue.
-
-<sup>3</sup>The new baseline scores are based on Poly-FRCNN-3 in [this folder](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Baseline).
 
 ### End-to-end Recognition Leaderboard <br> (None refers to recognition without any lexicon; Full lexicon contains all words in test set.)
 | Method     | Backbone  | None (%)  |  Full (%)  |  FPS          |   Published at    |
