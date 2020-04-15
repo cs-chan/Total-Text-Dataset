@@ -128,6 +128,19 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>ICCV2019</td>
         </tr>
         <tr>
+           <td>ContourNet <a href="https://arxiv.org/abs/2004.04940">[paper]</a></td>
+           <td>86.9</td>
+           <td>83.9</td>
+           <td>85.4</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>CVPR2020</td>
+        </tr>   
+        <tr>
            <td>Text Perceptron (E2E) <a href="https://arxiv.org/abs/2002.06820">[paper]</a></td>
            <td>88.8</td>
            <td>81.8</td>
