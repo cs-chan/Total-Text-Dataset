@@ -1,5 +1,5 @@
 # Total-Text-Dataset (Official site)
-Updated on April 29, 2020 (Detection leaderboard is updated - highlighted E2E methods. Thank you.)
+Updated on April 29, 2020 (Detection leaderboard is updated - highlighted E2E methods. Thank you [shine-lcy](https://github.com/shine-lcy).)
 
 Updated on March 19, 2020 (Query on the new groundtruth of test set)
 
@@ -286,7 +286,7 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>CVPR2019</td>
         </tr>
         <tr>
-            <td><sup>1</sup>TextField (E2E) <a href="https://arxiv.org/abs/1812.01393">[paper]</a></td>
+            <td><sup>1</sup>TextField <a href="https://arxiv.org/abs/1812.01393">[paper]</a></td>
            <td>81.2</td>
            <td>79.9</td>
            <td>80.6</td>
