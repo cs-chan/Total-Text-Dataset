@@ -76,7 +76,7 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
     <tr></tr>
     <tbody align="center">
         <tr>
-            <td><b>Our Baseline</b></td>
+           <td><b>Our Baseline</b></td>
            <td><b>78.0</b></td>
            <td><b>68.0</b></td>
            <td><b>73.0</b></td>
@@ -89,17 +89,17 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td><b>IJDAR2020</b></td>
         </tr>
         <tr>
-           <td>Boundary (E2E) <a href="https://arxiv.org/abs/1911.09550">[paper]</a></td>
-           <td>88.9</td>
-           <td>85.0</td>
-           <td>87.0</td>
+           <td ><sup>#</sup><i>Boundary (E2E) <a href="https://arxiv.org/abs/1911.09550">[paper]</a></i></td>
+           <td><i>88.9</i></td>
+           <td><i>85.0</i></td>
+           <td><i>87.0</i></td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
-           <td>AAAI2020</td>
+           <td><i>AAAI2020</i></td>
         </tr>
         <tr>
            <td>CharNet H-88 MS <a href="https://arxiv.org/abs/1910.07954">[paper]</a></td>
