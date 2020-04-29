@@ -1,4 +1,6 @@
 # Total-Text-Dataset (Official site)
+Updated on April 29, 2020 (Detection leaderboard is updated - highlighted E2E methods. Thank you.)
+
 Updated on March 19, 2020 (Query on the new groundtruth of test set)
 
 Updated on Sept. 08, 2019 (New [training groundtruth](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Groundtruth/Text) of Total-Text is now available)
@@ -102,30 +104,30 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td><i>AAAI2020</i></td>
         </tr>
         <tr>
-           <td>CharNet H-88 MS <a href="https://arxiv.org/abs/1910.07954">[paper]</a></td>
-           <td>88.0</td>
-           <td>85.0</td>
-           <td>86.5</td>
+           <td><sup>#</sup><i>CharNet (E2E) <a href="https://arxiv.org/abs/1910.07954">[paper]</a></i></td>
+           <td><i>88.0</i></td>
+           <td><i>85.0</i></td>
+           <td><i>86.5</i></td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
-           <td>ICCV2019</td>
+           <td><i>ICCV2019</i></td>
         </tr>
         <tr>
-           <td>Qin et al. (Inc-Res) <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Qin_Towards_Unconstrained_End-to-End_Text_Spotting_ICCV_2019_paper.pdf">[paper]</a></td>
-           <td>87.8</td>
-           <td>85.0</td>
-           <td>86.4</td>
+           <td><sup>#</sup><i>Qin et al. (E2E) <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Qin_Towards_Unconstrained_End-to-End_Text_Spotting_ICCV_2019_paper.pdf">[paper]</a></i></td>
+           <td><i>87.8</i></td>
+           <td><i>85.0</i></td>
+           <td><i>86.4</i></td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
-           <td>ICCV2019</td>
+           <td><i>ICCV2019</i></td>
         </tr>
         <tr>
            <td>ContourNet <a href="https://arxiv.org/abs/2004.04940">[paper]</a></td>
@@ -141,17 +143,17 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>CVPR2020</td>
         </tr>   
         <tr>
-           <td>Text Perceptron (E2E) <a href="https://arxiv.org/abs/2002.06820">[paper]</a></td>
-           <td>88.8</td>
-           <td>81.8</td>
-           <td>85.2</td>
+           <td><sup>#</sup><i>Text Perceptron (E2E) <a href="https://arxiv.org/abs/2002.06820">[paper]</a></i></td>
+           <td><i>88.8</i></td>
+           <td><i>81.8</i></td>
+           <td><i>85.2</i></td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
-           <td>AAAI2020</td>
+           <td><i>AAAI2020</i></td>
            </tr>       
         <tr>
            <td>PAN-640 <a href="https://arxiv.org/abs/1908.05900">[paper]</a></td>
@@ -231,18 +233,6 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>-</td>
            <td>CVPR2019</td>
         </tr>
-                   <td>Qin et al. (ResNet50) <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Qin_Towards_Unconstrained_End-to-End_Text_Spotting_ICCV_2019_paper.pdf">[paper]</a></td>
-           <td>83.3</td>
-           <td>83.4</td>
-           <td>83.3</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>ICCV2019</td>
-        </tr>
         <tr>
            <td>SPCNet <a href="https://arxiv.org/abs/1811.08605">[paper]</a></td>
            <td>83.0</td>
@@ -296,7 +286,7 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>CVPR2019</td>
         </tr>
         <tr>
-            <td><sup>1</sup>TextField <a href="https://arxiv.org/abs/1812.01393">[paper]</a></td>
+            <td><sup>1</sup>TextField (E2E) <a href="https://arxiv.org/abs/1812.01393">[paper]</a></td>
            <td>81.2</td>
            <td>79.9</td>
            <td>80.6</td>
@@ -309,17 +299,17 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>TIP2019</td>
         </tr>
         <tr>
-           <td>TextDragon <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Feng_TextDragon_An_End-to-End_Framework_for_Arbitrary_Shaped_Text_Spotting_ICCV_2019_paper.pdf">[paper]</a></td>
-           <td>85.6</td>
-           <td>75.7</td>
-           <td>80.3</td>
+           <td><sup>#</sup><i>TextDragon (E2E) <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Feng_TextDragon_An_End-to-End_Framework_for_Arbitrary_Shaped_Text_Spotting_ICCV_2019_paper.pdf">[paper]</a></i></td>
+           <td><i>85.6</i></td>
+           <td><i>75.7</i></td>
+           <td><i>80.3</i></td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
-           <td>ICCV2019</td>
+           <td><i>ICCV2019</i></td>
         </tr>
         <tr>
            <td>CSE <a href="https://arxiv.org/abs/1903.08836">[paper]</a></td>
@@ -387,30 +377,30 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>PR2019</td>
         </tr>
         <tr>
-           <td>TextNet <a href="https://arxiv.org/abs/1812.09900">[paper]</a></td>
-           <td>68.2</td>
-           <td>59.5</td>
-           <td>63.5</td>
+           <td><sup>#</sup><i>TextNet (E2E) <a href="https://arxiv.org/abs/1812.09900">[paper]</a></i></td>
+           <td><i>68.2</i></td>
+           <td><i>59.5</i></td>
+           <td><i>63.5</i></td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
-           <td>ACCV2018</td>
+           <td><i>ACCV2018</i></td>
         </tr>
         <tr>
-           <td><sup>2</sup>Mask TextSpotter <a href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Pengyuan_Lyu_Mask_TextSpotter_An_ECCV_2018_paper.pdf">[paper]</a></td>
-           <td>69.0</td>
-           <td>55.0</td>
-           <td>61.3</td>
-           <td>68.9</td>
-           <td>62.5</td>
-           <td>65.5</td>
-           <td>82.5</td>
-           <td>75.2</td>
-           <td>78.6</td>
-           <td>ECCV2018</td>
+           <td><sup>#,2</sup><i>Mask TextSpotter (E2E) <a href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Pengyuan_Lyu_Mask_TextSpotter_An_ECCV_2018_paper.pdf">[paper]</a></i></td>
+           <td><i>69.0</i></td>
+           <td><i>55.0</i></td>
+           <td><i>61.3</i></td>
+           <td><i>68.9</i></td>
+           <td><i>62.5</i></td>
+           <td><i>65.5</i></td>
+           <td><i>82.5</i></td>
+           <td><i>75.2</i></td>
+           <td><i>78.6</i></td>
+           <td><i>ECCV2018</i></td>
         </tr>
         <tr>
            <td>CENet <a href="https://arxiv.org/abs/1901.00363">[paper]</a></td>
@@ -426,17 +416,17 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>ACCV2018</td>
         </tr>
         <tr>
-           <td>Textboxes <a href="https://arxiv.org/abs/1611.06779">[paper]</a></td>
-           <td>62.1</td>
-           <td>45.5</td>
-           <td>52.5</td>
+           <td><sup>#</sup><i>Textboxes (E2E) <a href="https://arxiv.org/abs/1611.06779">[paper]</a></i></td>
+           <td><i>62.1</i></td>
+           <td><i>45.5</i></td>
+           <td><i>52.5</i></td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
-           <td>AAAI2017</td>
+           <td><i>AAAI2017</i></td>
         </tr>
         <tr>
            <td>EAST <a href="https://arxiv.org/abs/1704.03155">[paper]</a></td>
@@ -469,6 +459,8 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
 
 Note:
 
+<sup>#</sup> Framework that do end-to-end training for text spotting (i.e. detection + recognition).
+
 <sup>1</sup>For the results of TextField and CTD, the improved versions of their original paper were used, and this explains why the performance is better.
 
 <sup>2</sup>For Mask-TextSpotter, the relatively poor performance reported in their paper was due to a bug in the input reading module (which was fixed recently). The authors were informed about this issue.
@@ -480,7 +472,7 @@ Note:
 |ABCNet-MS [[paper]](https://arxiv.org/abs/2002.10200) | ResNet50-FPN  | 69.5  |  78.4     |     6.9     |    CVPR2020 |
 |CharNet H-88 MS [[paper]](https://arxiv.org/abs/1910.07954) | ResNet50-Hourglass57  | 69.2  |  -     |     1.2     |    ICCV2019 |
 |Qin et al. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Qin_Towards_Unconstrained_End-to-End_Text_Spotting_ICCV_2019_paper.pdf) | ResNet50-MSF  | 67.8  |  -     |    -     |     ICCV2019 |
-|Boundary (E2E) [[paper]](https://arxiv.org/abs/1911.09550) | ResNet50-FPN  | 65.0  |  76.1     |    -     |     AAAI2020 |
+|Boundary [[paper]](https://arxiv.org/abs/1911.09550) | ResNet50-FPN  | 65.0  |  76.1     |    -     |     AAAI2020 |
 |ABCNet [[paper]](https://arxiv.org/abs/2002.10200) | ResNet50-FPN  | 64.2  |  75.7     |       17.9     |  CVPR2020 |
 |CAPNet [[paper]](https://arxiv.org/abs/2002.03509) | ResNet50-FPN  | 62.7  |  -     |       -    |  ICASSP2020 |
 |TextNet [[paper]](https://arxiv.org/abs/1812.09900)     | ResNet50-SAM  | 54.0     |  -    |    2.7     |  ACCV2018         |
