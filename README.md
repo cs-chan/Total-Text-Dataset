@@ -459,7 +459,7 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
 
 Note:
 
-<sup>#</sup> Framework that do end-to-end training for text spotting (i.e. detection + recognition).
+<sup>#</sup> Framework that does end-to-end training (i.e. detection + recognition).
 
 <sup>1</sup>For the results of TextField and CTD, the improved versions of their original paper were used, and this explains why the performance is better.
 
