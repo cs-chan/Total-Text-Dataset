@@ -75,7 +75,6 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
             <th>F</th>
         </tr>
     </thead>
-    <tr></tr>
     <tbody align="center">
         <tr>
            <td><b>Our Baseline</b></td>
@@ -89,6 +88,19 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td><b>68.0</b></td>
            <td><b>73.0</b></td>
            <td><b>IJDAR2020</b></td>
+        </tr>
+        <tr>
+           <td><sup>#</sup><i>ASTS_Weakly-ResNet101 (E2E) <a href="https://ieeexplore.ieee.org/document/9056856">[paper]</a></i></td>
+           <td><i>-</i></td>
+           <td><i>-</i></td>
+           <td><i>87.3</i></td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td><i>TIP2020</i></td>
         </tr>
         <tr>
            <td ><sup>#</sup><i>Boundary (E2E) <a href="https://arxiv.org/abs/1911.09550">[paper]</a></i></td>
@@ -245,6 +257,19 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>-</td>
            <td>-</td>
            <td>AAAI2019</td>
+        </tr>
+        <tr>
+           <td><sup>#</sup><i>ABCNet (E2E) <a href="https://arxiv.org/abs/2002.10200">[paper]</a></i></td>
+           <td><i>85.4</i></td>
+           <td><i>80.1</i></td>
+           <td><i>82.7</i></td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td><i>CVPR2020</i></td>
         </tr>
         <tr>
            <td>ICG <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320319302511">[paper]</a></td>
@@ -466,21 +491,117 @@ Note:
 <sup>2</sup>For Mask-TextSpotter, the relatively poor performance reported in their paper was due to a bug in the input reading module (which was fixed recently). The authors were informed about this issue.
 
 ### End-to-end Recognition Leaderboard <br> (None refers to recognition without any lexicon; Full lexicon contains all words in test set.)
-| Method     | Backbone  | None (%)  |  Full (%)  |  FPS          |   Published at    |
-|:--------:  | :-----:   | :-----:   |  :----:    |    :-----:    |        :-----:    |
-|Text Perceptron [[paper]](https://arxiv.org/abs/2002.06820)     | ResNet50-FPN  | 69.7     |  78.3    |    -     |  AAAI2020         |
-|ABCNet-MS [[paper]](https://arxiv.org/abs/2002.10200) | ResNet50-FPN  | 69.5  |  78.4     |     6.9     |    CVPR2020 |
-|CharNet H-88 MS [[paper]](https://arxiv.org/abs/1910.07954) | ResNet50-Hourglass57  | 69.2  |  -     |     1.2     |    ICCV2019 |
-|Qin et al. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Qin_Towards_Unconstrained_End-to-End_Text_Spotting_ICCV_2019_paper.pdf) | ResNet50-MSF  | 67.8  |  -     |    -     |     ICCV2019 |
-|Boundary [[paper]](https://arxiv.org/abs/1911.09550) | ResNet50-FPN  | 65.0  |  76.1     |    -     |     AAAI2020 |
-|ABCNet [[paper]](https://arxiv.org/abs/2002.10200) | ResNet50-FPN  | 64.2  |  75.7     |       17.9     |  CVPR2020 |
-|CAPNet [[paper]](https://arxiv.org/abs/2002.03509) | ResNet50-FPN  | 62.7  |  -     |       -    |  ICASSP2020 |
-|TextNet [[paper]](https://arxiv.org/abs/1812.09900)     | ResNet50-SAM  | 54.0     |  -    |    2.7     |  ACCV2018         |
-|Mask TextSpotter [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Pengyuan_Lyu_Mask_TextSpotter_An_ECCV_2018_paper.pdf)  | ResNet50-FPN  | 52.9     |  71.8      |   4.8     | ECCV2018          |
-|TextDragon [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/html/Feng_TextDragon_An_End-to-End_Framework_for_Arbitrary_Shaped_Text_Spotting_ICCV_2019_paper.html)        | VGG16  | 48.8     |  74.8       |      -     |  ICCV2019    |
-|Textboxes [[paper]](https://arxiv.org/abs/1611.06779)        | ResNet50-FPN  | 36.3     |  48.9       |       1.4     |  AAAI2017    |
 
-
+<table>
+    <thead align="center">
+       <tr>
+            <th>Method</th>
+            <th>Backbone</th>
+            <th>None (%)</th>
+            <th>Full (%)</th>
+            <th>FPS</th>
+            <th>Published at</th>
+        </tr>
+    </thead>
+    <tbody align="center">
+        <tr>
+              <td align="center">ASTS_Weakly <a href="https://ieeexplore.ieee.org/document/9056856">[paper]</a></td>
+              <td align="center">ResNet101-FPN</td>
+              <td align="center">65.3</td>
+              <td align="center">84.2</td>
+              <td align="center">2.5</td>
+              <td align="center">TIP2020</td>
+       </tr>
+       <tr>
+              <td>Text Perceptron <a href="https://arxiv.org/abs/2002.06820">[paper]</a></td>
+              <td>ResNet50-FPN</td>
+              <td>69.7</td>
+              <td>78.3</td>
+              <td>-</td>
+              <td>AAAI2020</td>
+       </tr>
+       <tr>
+              <td>ABCNet-MS <a href="https://arxiv.org/abs/2002.10200">[paper]</a></td>
+              <td>ResNet50-FPN</td>
+              <td>69.5</td>
+              <td>78.4</td>
+              <td>6.9</td>
+              <td>CVPR2020</td>
+       </tr>
+       <tr>
+              <td>CharNet H-88 MS <a href="https://arxiv.org/abs/1910.07954">[paper]</a></td>
+              <td>ResNet50-Hourglass57</td>
+              <td>69.2</td>
+              <td>-</td>
+              <td>1.2</td>
+              <td>ICCV2019</td>
+       </tr>
+       <tr>
+              <td>Qin et al. <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Qin_Towards_Unconstrained_End-to-End_Text_Spotting_ICCV_2019_paper.pdf">[paper]</a></td>
+              <td>ResNet50-MSF</td>
+              <td>67.8</td>
+              <td>-</td>
+              <td>-</td>
+              <td>ICCV2019</td>
+       </tr>
+       <tr>
+              <td>Boundary <a href="https://arxiv.org/abs/1911.09550">[paper]</a></td>
+              <td>ResNet50-FPN</td>
+              <td>65.0</td>
+              <td>76.1</td>
+              <td>-</td>
+              <td>AAAI2020</td>
+       </tr>
+       <tr>
+              <td>ABCNet <a href="https://arxiv.org/abs/2002.10200">[paper]</a></td>
+              <td>ResNet50-FPN</td>
+              <td>64.2</td>
+              <td>75.7</td>
+              <td>17.9</td>
+              <td>CVPR2020</td>
+       </tr>
+       <tr>
+              <td>CAPNet <a href="https://arxiv.org/abs/2002.03509">[paper]</a></td>
+              <td>ResNet50-FPN</td>
+              <td>62.7</td>
+              <td>-</td>
+              <td>-</td>
+              <td>ICASSP2020</td>
+       </tr>
+       <tr>
+              <td>TextNet <a href="https://arxiv.org/abs/1812.09900">[paper]</a></td>
+              <td>ResNet50-SAM</td>
+              <td>54.0</td>
+              <td>-</td>
+              <td>2.7</td>
+              <td>ACCV2018</td>
+       </tr>
+       <tr>
+              <td>Mask TextSpotter <a href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Pengyuan_Lyu_Mask_TextSpotter_An_ECCV_2018_paper.pdf">[paper]</a></td>
+              <td>ResNet50-FPN</td>
+              <td>52.9</td>
+              <td>71.8</td>
+              <td>4.8</td>
+              <td>ECCV2018</td>
+       </tr>
+       <tr>
+              <td>TextDragon <a href="http://openaccess.thecvf.com/content_ICCV_2019/html/Feng_TextDragon_An_End-to-End_Framework_for_Arbitrary_Shaped_Text_Spotting_ICCV_2019_paper.html">[paper]</a></td>
+              <td>VGG16</td>
+              <td>48.8</td>
+              <td>74.8</td>
+              <td>-</td>
+              <td>ICCV2019</td>
+       </tr>
+       <tr>
+              <td>Textboxes <a href="https://arxiv.org/abs/1611.06779">[paper]</a></td>
+              <td>ResNet50-FPN</td>
+              <td>36.3</td>
+              <td>48.9</td>
+              <td>1.4</td>
+              <td>AAAI2017</td>
+       </tr>
+    </tbody>
+</table>
 
 
 ## Description
