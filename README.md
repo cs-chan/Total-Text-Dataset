@@ -517,13 +517,13 @@ Note:
         </tr>
     </thead>
     <tbody align="center">
-        <tr>
-              <td align="center">ASTS_Weakly <a href="https://ieeexplore.ieee.org/document/9056856">[paper]</a></td>
-              <td align="center">ResNet101-FPN</td>
-              <td align="center">65.3</td>
-              <td align="center">84.2</td>
-              <td align="center">2.5</td>
-              <td align="center">TIP2020</td>
+           <tr>
+              <td>MANGO <a href="https://arxiv.org/abs/2012.04350">[paper]</a></td>
+              <td>ResNet50-FPN</td>
+              <td>72.9</td>
+              <td>83.6</td>
+              <td>4.3</td>
+              <td>AAAI2021</td>
        </tr>
        <tr>
               <td>Text Perceptron <a href="https://arxiv.org/abs/2002.06820">[paper]</a></td>
@@ -558,6 +558,14 @@ Note:
               <td>ICCV2019</td>
        </tr>
        <tr>
+              <td align="center">ASTS_Weakly <a href="https://ieeexplore.ieee.org/document/9056856">[paper]</a></td>
+              <td align="center">ResNet101-FPN</td>
+              <td align="center">65.3</td>
+              <td align="center">84.2</td>
+              <td align="center">2.5</td>
+              <td align="center">TIP2020</td>
+       </tr>
+       <tr>
               <td>Boundary <a href="https://arxiv.org/abs/1911.09550">[paper]</a></td>
               <td>ResNet50-FPN</td>
               <td>65.0</td>
@@ -580,6 +588,14 @@ Note:
               <td>-</td>
               <td>-</td>
               <td>ICASSP2020</td>
+       </tr>
+               <tr>
+              <td align="center">Feng et al. <a href="http://159.226.21.68/bitstream/173211/41453/1/发表版.pdf">[paper]</a></td>
+              <td align="center">VGG</td>
+              <td align="center">55.8</td>
+              <td align="center">79.2</td>
+              <td align="center">-</td>
+              <td align="center">IJCV2020</td>
        </tr>
        <tr>
               <td>TextNet <a href="https://arxiv.org/abs/1812.09900">[paper]</a></td>
