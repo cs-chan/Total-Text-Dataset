@@ -91,9 +91,9 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
         </tr>
            <tr>
            <td>CRAFTS <a href="https://arxiv.org/abs/2007.09629">[paper]</a></td>
-           <td><i>89.5</i></td>
-           <td><i>85.4</i></td>
-           <td><i>87.4</i></td>
+           <td>89.5</td>
+           <td>85.4</td>
+           <td>87.4</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
@@ -130,9 +130,9 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
         </tr>
         <tr>
            <td>PolyPRNet <a href="https://openaccess.thecvf.com/content/ACCV2020/html/Shi_Accurate_Arbitrary-Shaped_Scene_Text_Detection_via_Iterative_Polynomial_Parameter_Regression_ACCV_2020_paper.html">[paper]</a></td>
-           <td><i>88.1</i></td>
-           <td><i>85.3</i></td>
-           <td><i>86.7</i></td>
+           <td>88.1</td>
+           <td>85.3</td>
+           <td>86.7</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
@@ -156,9 +156,9 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
         </tr>
            <tr>
            <td>100%Poly <a href="https://arxiv.org/abs/2012.00424">[paper]</a></td>
-           <td><i>88.2</i></td>
-           <td><i>83.3</i></td>
-           <td><i>85.6</i></td>
+           <td>88.2</td>
+           <td>83.3</td>
+           <td>85.6</td>
            <td>-</td>
            <td>-</td>
            <td>-</td>
