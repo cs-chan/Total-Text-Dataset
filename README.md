@@ -89,6 +89,19 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td><b>73.0</b></td>
            <td><b>IJDAR2020</b></td>
         </tr>
+           <tr>
+           <td>CRAFTS <a href="https://arxiv.org/abs/2007.09629">[paper]</a></td>
+           <td><i>89.5</i></td>
+           <td><i>85.4</i></td>
+           <td><i>87.4</i></td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td><i>ECCV2020</i></td>
+        </tr>
         <tr>
            <td><sup>#</sup><i>ASTS_Weakly-ResNet101 (E2E) <a href="https://ieeexplore.ieee.org/document/9056856">[paper]</a></i></td>
            <td><i>-</i></td>
@@ -517,6 +530,14 @@ Note:
         </tr>
     </thead>
     <tbody align="center">
+           <tr>
+              <td>CRAFTS <a href="https://arxiv.org/abs/2007.09629">[paper]</a></td>
+              <td>ResNet50-FPN</td>
+              <td>78.7</td>
+              <td>-</td>
+              <td>-</td>
+              <td>ECCV2020</td>
+       </tr>
            <tr>
               <td>MANGO <a href="https://arxiv.org/abs/2012.04350">[paper]</a></td>
               <td>ResNet50-FPN</td>
