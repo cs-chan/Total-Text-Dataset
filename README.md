@@ -77,7 +77,7 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
     </thead>
     <tbody align="center">
         <tr>
-           <td><b>Our Baseline</b></td>
+           <td><b>Our Baseline <a href="http://cs-chan.com/doc/IJDAR2019.pdf">[paper]</a></b></td>
            <td><b>78.0</b></td>
            <td><b>68.0</b></td>
            <td><b>73.0</b></td>
