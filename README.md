@@ -100,7 +100,7 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>-</td>
            <td>-</td>
            <td>-</td>
-           <td><i>ECCV2020</i></td>
+           <td>ECCV2020</td>
         </tr>
         <tr>
            <td><sup>#</sup><i>ASTS_Weakly-ResNet101 (E2E) <a href="https://ieeexplore.ieee.org/document/9056856">[paper]</a></i></td>
@@ -139,7 +139,7 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>-</td>
            <td>-</td>
            <td>-</td>
-           <td><i>ACCV2020</i></td>
+           <td>ACCV2020</td>
         </tr>
         <tr>
            <td><sup>#</sup><i>Qin et al. (E2E) <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Qin_Towards_Unconstrained_End-to-End_Text_Spotting_ICCV_2019_paper.pdf">[paper]</a></i></td>
@@ -153,6 +153,19 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>-</td>
            <td>-</td>
            <td><i>ICCV2019</i></td>
+        </tr>
+           <tr>
+           <td>100%Poly <a href="https://arxiv.org/abs/2012.00424">[paper]</a></td>
+           <td><i>88.2</i></td>
+           <td><i>83.3</i></td>
+           <td><i>85.6</i></td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>arXiv:2012</td>
         </tr>
         <tr>
            <td>ContourNet <a href="https://arxiv.org/abs/2004.04940">[paper]</a></td>
@@ -347,7 +360,7 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>83.0</td>
            <td>82.0</td>
            <td>82.5</td>
-           <td>TIP2019</td>
+           <td><i>TIP2019</i></td>
         </tr>
         <tr>
            <td><sup>#</sup><i>TextDragon (E2E) <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Feng_TextDragon_An_End-to-End_Framework_for_Arbitrary_Shaped_Text_Spotting_ICCV_2019_paper.pdf">[paper]</a></i></td>
