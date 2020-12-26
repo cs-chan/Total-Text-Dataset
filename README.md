@@ -116,20 +116,7 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td><i>AAAI2020</i></td>
         </tr>
         <tr>
-           <td><<i>ASTS_Weakly-ResNet101 (E2E) <a href="https://ieeexplore.ieee.org/document/9056856">[paper]</a></i></td>
-           <td><i>-</i></td>
-           <td><i>-</i></td>
-           <td><i>87.3</i></td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td><i>TIP2020</i></td>
-        </tr>
-        <tr>
-           <td>PolyPRNet <a href="https://openaccess.thecvf.com/content/ACCV2020/html/Shi_Accurate_Arbitrary-Shaped_Scene_Text_Detection_via_Iterative_Polynomial_Parameter_Regression_ACCV_2020_paper.html">[paper]</a></i></td>
+           <td>PolyPRNet <a href="https://openaccess.thecvf.com/content/ACCV2020/html/Shi_Accurate_Arbitrary-Shaped_Scene_Text_Detection_via_Iterative_Polynomial_Parameter_Regression_ACCV_2020_paper.html">[paper]</a></td>
            <td><i>88.1</i></td>
            <td><i>85.3</i></td>
            <td><i>86.7</i></td>
