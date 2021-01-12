@@ -115,6 +115,19 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>-</td>
            <td><i>TIP2020</i></td>
         </tr>
+           <tr>
+           <td>TextFuseNet <a href="https://www.ijcai.org/Proceedings/2020/0072.pdf">[paper]</a></td>
+           <td>89.0</td>
+           <td>85.3</td>
+           <td>87.1</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td><i>IJCAI2020</i></td>
+        </tr>
         <tr>
            <td ><sup>#</sup><i>Boundary (E2E) <a href="https://arxiv.org/abs/1911.09550">[paper]</a></i></td>
            <td><i>88.9</i></td>
