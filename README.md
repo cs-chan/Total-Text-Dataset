@@ -1,5 +1,5 @@
 # Total-Text-Dataset (Official site)
-Updated on April 06, 2022 (Detection leaderboard is updated.)
+Updated on April 06, 2022 (Detection leaderboard is updated with FCE, ABPNet, PCR, CentripetalText & HierText)
 
 Updated on April 29, 2020 (Detection leaderboard is updated - highlighted E2E methods. Thank you [shine-lcy](https://github.com/shine-lcy).)
 
