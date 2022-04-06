@@ -1,4 +1,6 @@
 # Total-Text-Dataset (Official site)
+Updated on April 06, 2022 (Detection leaderboard is updated.)
+
 Updated on April 29, 2020 (Detection leaderboard is updated - highlighted E2E methods. Thank you [shine-lcy](https://github.com/shine-lcy).)
 
 Updated on March 19, 2020 (Query on the new groundtruth of test set)
@@ -90,6 +92,45 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td><b>IJDAR2020</b></td>
         </tr>
            <tr>
+           <td>HierText <a href="https://arxiv.org/abs/2203.15143">[paper]</a></td>
+           <td>85.49</td>
+           <td>90.53</td>
+           <td>87.94</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>CVPR2022</td>
+        </tr>
+           <tr>
+           <td>CentripetalText <a href="https://arxiv.org/abs/2107.05945">[paper]</a></td>
+           <td>90.67</td>
+           <td>85.19</td>
+           <td>87.85</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>NeurIPS2021</td>
+        </tr>
+           <tr>
+           <td>ABPNet <a href="https://arxiv.org/abs/2107.12664">[paper]</a></td>
+           <td>90.6</td>
+           <td>82.5</td>
+           <td>86.3</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>ICCV2021</td>
+        </tr>
+           <tr>
            <td>CRAFTS <a href="https://arxiv.org/abs/2007.09629">[paper]</a></td>
            <td>89.5</td>
            <td>85.4</td>
@@ -101,6 +142,19 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>-</td>
            <td>-</td>
            <td>ECCV2020</td>
+        </tr>
+           <tr>
+           <td>FCE <a href="https://arxiv.org/abs/2104.10442">[paper]</a></td>
+           <td>89.3</td>
+           <td>82.5</td>
+           <td>85.8</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>CVPR2021</td>
         </tr>
         <tr>
            <td><sup>#</sup><i>ASTS_Weakly-ResNet101 (E2E) <a href="https://ieeexplore.ieee.org/document/9056856">[paper]</a></i></td>
@@ -140,6 +194,19 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>-</td>
            <td>-</td>
            <td><i>AAAI2020</i></td>
+        </tr>
+           <tr>
+           <td>PCR <a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Dai_Progressive_Contour_Regression_for_Arbitrary-Shape_Scene_Text_Detection_CVPR_2021_paper.pdf">[paper]</a></td>
+           <td>88.5</td>
+           <td>82.0</td>
+           <td>85.2</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>CVPR2021</td>
         </tr>
         <tr>
            <td>PolyPRNet <a href="https://openaccess.thecvf.com/content/ACCV2020/html/Shi_Accurate_Arbitrary-Shaped_Scene_Text_Detection_via_Iterative_Polynomial_Parameter_Regression_ACCV_2020_paper.html">[paper]</a></td>
