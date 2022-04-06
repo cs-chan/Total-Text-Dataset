@@ -92,19 +92,6 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td><b>IJDAR2020</b></td>
         </tr>
            <tr>
-           <td>HierText <a href="https://arxiv.org/abs/2203.15143">[paper]</a></td>
-           <td>85.49</td>
-           <td>90.53</td>
-           <td>87.94</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>CVPR2022</td>
-        </tr>
-           <tr>
            <td>CentripetalText <a href="https://arxiv.org/abs/2107.05945">[paper]</a></td>
            <td>90.67</td>
            <td>85.19</td>
@@ -324,6 +311,19 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
            <td>-</td>
            <td>-</td>
            <td>IJCV2020</td>
+        </tr>
+           <tr>
+           <td>HierText <a href="https://arxiv.org/abs/2203.15143">[paper]</a></td>
+           <td>85.49</td>
+           <td>90.53</td>
+           <td>87.94</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>CVPR2022</td>
         </tr>
            <tr>
            <td>ReLaText <a href="https://arxiv.org/abs/2003.06999">[paper]</a></td>
