@@ -756,7 +756,7 @@ In order to facilitate a new text detection research, we introduce Total-Text da
 
 ## Citation
 If you find this dataset useful for your research, please cite
-```
+```bibtex
 @article{CK2019,
   author    = {Chee Kheng Ch’ng and
                Chee Seng Chan and
