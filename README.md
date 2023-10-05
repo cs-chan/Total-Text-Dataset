@@ -51,7 +51,7 @@ Total-Text and SCUT-CTW1500 are now part of the training set of the largest curv
 ## Table Ranking
 
 - The results from recent papers on Total-Text dataset are listed below where P=Precision, R=Recall & F=F-score.
-- If your result is missing or incorrect, please do not hesisate to contact us.
+- If your result is missing or incorrect, please do not hesitate to contact us.
 - The baseline scores are based on our proposed <a href="http://cs-chan.com/doc/IJDAR2019.pdf">[Poly-FRCNN-3]</a> in [this folder](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Baseline).
 - <sup>*</sup>Pascal VOC IoU metric; <a href="https://arxiv.org/abs/1712.02170"><sup>**</sup>Polygon Regression</a>
 
