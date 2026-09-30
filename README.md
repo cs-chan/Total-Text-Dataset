@@ -820,6 +820,7 @@ Permissions are granted only to the extent that the applicable licensor is autho
 
 These clarified terms apply prospectively from 01 Oct 2026. They do not purport to revoke or determine the scope of any rights that may have been validly granted under an earlier version of this repository.
 
-&#169;2017-2026 Universiti Malaya.
+&#169;2017-2026 Chee Seng Chan. 
+Developed at Universiti Malaya.
 
 
