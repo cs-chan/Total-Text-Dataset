@@ -754,8 +754,42 @@ In order to facilitate a new text detection research, we introduce Total-Text da
 <img src="ttstatistics.png" width="100%">
 <img src="ICDAR17.gif" width="50%">
 
-## Citation
-If you find this dataset useful for your research, please cite
+
+## Contributors:
+Chee Kheng Chng, Chun Chet Ng, Chee Seng Chan
+
+## Feedback
+Suggestions and opinions of this dataset (both positive and negative) are greatly welcome. Please contact the authors by sending email to
+`chngcheekheng at gmail.com` or `cs.chan at um.edu.my`.
+
+## License, Dataset Terms and Copyright
+
+Total-Text contains different categories of material.
+Different terms apply to different components:
+
+| Material | Applicable terms |
+| --- | --- |
+| Software code, evaluation scripts, baseline code and annotation tools | BSD-3-Clause. See `LICENSE`. |
+| Total-Text annotations, ground-truth files, transcriptions, masks, metadata and dataset splits created for Total-Text | See `DATASET_TERMS.md`. |
+| Underlying images and other third-party material, if any | Not licensed under the BSD-3-Clause software licence. Separate rights may apply. |
+
+### Academic research use
+
+The Total-Text dataset materials may be used for non-commercial academic research, education, benchmarking and scholarly publication subject to `DATASET_TERMS.md`.
+
+If a project is affiliated with or supported by a for-profit company but is intended solely for scholarly research and publication and is segregated from commercial product or model development, please obtain written confirmation from us before relying on the academic-use permission.
+
+### Commercial use
+
+Commercial use of the Total-Text dataset materials requires prior written permission from the applicable rights holder.
+Commercial use includes, for example, use of the dataset to support product or service development, commercial model training or fine-tuning, internal commercial benchmarking or validation, deployment, or other business-facing R&D.
+
+For permission requests, contact:
+Dr. Chee Seng Chan at `cs.chan at um.edu.my`.
+
+### Attribution
+
+Academic publications using Total-Text should cite:
 ```bibtex
 @article{CK2019,
   author    = {Chee Kheng Ch’ng and
@@ -768,19 +802,24 @@ If you find this dataset useful for your research, please cite
   year      = {2020},
   doi       = {10.1007/s10032-019-00334-z},
 }
+
+@inproceedings{ch2017total,
+  title={Total-text: A comprehensive dataset for scene text detection and recognition},
+  author={Ch'Ng, Chee Kheng and Chan, Chee Seng},
+  booktitle={2017 14th IAPR international conference on document analysis and recognition (ICDAR)},
+  volume={1},
+  pages={935--942},
+  year={2017},
+  organization={IEEE}
+}
 ```
-## Contributors:
-Chee Kheng Chng, Chun Chet Ng, Chee Seng Chan
 
-## Feedback
-Suggestions and opinions of this dataset (both positive and negative) are greatly welcome. Please contact the authors by sending email to
-`chngcheekheng at gmail.com` or `cs.chan at um.edu.my`.
+### Rights notice
 
-## License and Copyright
-The project is open source under BSD-3 license (see the ``` LICENSE ``` file).
+Permissions are granted only to the extent that the applicable licensor is authorised to grant them. Nothing in this repository grants rights in third-party material beyond the rights held by the applicable rights holder.
 
-For commercial purpose usage, please contact Dr. Chee Seng Chan at `cs.chan at um.edu.my`
+These clarified terms apply prospectively from 01 Oct 2026. They do not purport to revoke or determine the scope of any rights that may have been validly granted under an earlier version of this repository.
 
-&#169;2017-2022 Center of Image and Signal Processing, Faculty of Computer Science and Information Technology, Universiti Malaya.
+&#169;2017-2026 Universiti Malaya.
 
 
