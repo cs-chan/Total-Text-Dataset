@@ -1,5 +1,6 @@
 # Total-Text Dataset Research Use Terms
 Version 1.0
+
 Effective date: 01 October 2026
 
 These terms apply to the Total-Text dataset materials described below. They do not apply to software code released under the BSD-3-Clause licence.
