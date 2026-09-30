@@ -5,6 +5,8 @@ Effective date: 01 October 2026
 
 These terms apply to the Total-Text dataset materials described below. They do not apply to software code released under the BSD-3-Clause licence.
 
+For purposes of these terms, “Licensor” means Chee Seng Chan, the copyright owner of the Total-Text Dataset Materials.
+
 ## 1. Covered Dataset Materials
 
 “Dataset Materials” means the original Total-Text annotations, ground-truth files, transcriptions, masks, metadata, dataset splits and related dataset documentation distributed from this repository, but only to the extent that the Licensor owns or is authorised to license the relevant rights.
