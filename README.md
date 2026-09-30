@@ -775,13 +775,13 @@ Different terms apply to different components:
 | Total-Text annotations, ground-truth files, transcriptions, masks, metadata and dataset splits created for Total-Text | See `DATASET_TERMS.md`. |
 | Underlying images and other third-party material, if any | Not licensed under the BSD-3-Clause software licence. Separate rights may apply. |
 
-### Academic research use
+## Academic research use
 
 The Total-Text dataset materials may be used for non-commercial academic research, education, benchmarking and scholarly publication subject to `DATASET_TERMS.md`.
 
 If a project is affiliated with or supported by a for-profit company but is intended solely for scholarly research and publication and is segregated from commercial product or model development, please obtain written confirmation from us before relying on the academic-use permission.
 
-### Commercial use
+## Commercial use
 
 Commercial use of the Total-Text dataset materials requires prior written permission from the applicable rights holder.
 Commercial use includes, for example, use of the dataset to support product or service development, commercial model training or fine-tuning, internal commercial benchmarking or validation, deployment, or other business-facing R&D.
@@ -789,7 +789,7 @@ Commercial use includes, for example, use of the dataset to support product or s
 For permission requests, contact:
 Dr. Chee Seng Chan at `cs.chan at um.edu.my`.
 
-### Attribution
+## Attribution
 
 Academic publications using Total-Text should cite:
 ```bibtex
@@ -816,7 +816,7 @@ Academic publications using Total-Text should cite:
 }
 ```
 
-### Rights notice
+## Rights notice
 
 Permissions are granted only to the extent that the applicable licensor is authorised to grant them. Nothing in this repository grants rights in third-party material beyond the rights held by the applicable rights holder.
 
