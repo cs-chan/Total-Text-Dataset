@@ -49,10 +49,29 @@ This restriction does not prevent reasonable internal copies needed by members o
 
 Publications using Total-Text must cite:
 
-Chee Kheng Ch’ng, Chee Seng Chan and Chenglin Liu,
-“Total-Text: Towards Orientation Robustness in Scene Text
-Detection,” International Journal on Document Analysis and
-Recognition, 2020.
+```bibtex
+@article{CK2019,
+  author    = {Chee Kheng Ch’ng and
+               Chee Seng Chan and
+               Chenglin Liu},
+  title     = {Total-Text: Towards Orientation Robustness in Scene Text Detection},
+  journal   = {International Journal on Document Analysis and Recognition (IJDAR)},
+  volume    = {23},
+  pages     = {31-52},
+  year      = {2020},
+  doi       = {10.1007/s10032-019-00334-z},
+}
+
+@inproceedings{ch2017total,
+  title={Total-text: A comprehensive dataset for scene text detection and recognition},
+  author={Ch'Ng, Chee Kheng and Chan, Chee Seng},
+  booktitle={2017 14th IAPR international conference on document analysis and recognition (ICDAR)},
+  volume={1},
+  pages={935--942},
+  year={2017},
+  organization={IEEE}
+}
+```
 
 Publication of aggregate metrics and research analysis is permitted for authorised academic use.
 
